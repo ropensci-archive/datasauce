@@ -1,0 +1,30 @@
+---
+title: "Creating ropensci data.json records"
+author: "Carl Boettiger, Scott Chamberlain"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Creating ropensci data.json records}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Each rOpenSci package which accesses a particular dataset should include a `data.json` file.  This file should be placed in the package root directory and be added to `.Rbuildignore`.  The `data.json` file should conform to Google's [Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data) format.  Users can check their document interactively using the [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool).   A list of all recognized `Dataset` properties (metadata fields) can be found at <http://schema.org/Dataset>.  
+
+If ncessary, multiple datasets (and other objects such as the `DataCatalog`) can be documented in a single JSON file by creating a separate `@context` element for the `schema.org` context and a `@graph` element containing an array of `Dataset` type objects, e.g.
+
+```
+{
+"@context": "http:/schema.org",
+"@graph": [
+  {
+    "@type": "Dataset",
+    ...
+  },
+    {
+    "@type": "Dataset",
+    ...
+  },
+  ...
+]
+}
