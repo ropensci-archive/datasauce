@@ -6,6 +6,7 @@
 ##' @export
 
 data_validate <- function(json){
-    v <- jsonvalidate::json_validate(json, schema.json)
+    schema <- system.file("extdata/schema.json", package="datasauce")
+    v <- jsonvalidate::json_validate(json, schema)
     v('{}', error = TRUE)}
                   
