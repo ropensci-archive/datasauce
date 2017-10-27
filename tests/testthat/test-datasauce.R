@@ -6,9 +6,8 @@ testthat::test_that(
   
   "we can call datasauce",
   {
-    
-  datasauce()
-    
+    f <- system.file("extdata/example.json", package = "datasauce")
+    data_validate(f)
   })
 
 testthat::test_that(
