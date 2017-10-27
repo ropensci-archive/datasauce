@@ -1,5 +1,4 @@
-schema <- 
- '{  
+  '{  
     "$schema": "http://schema.org/Dataset",
     "type": "object",
     "properties" : {
