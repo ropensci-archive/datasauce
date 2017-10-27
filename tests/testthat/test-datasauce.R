@@ -8,5 +8,5 @@ testthat::test_that(
   {
     f <- system.file("extdata/example.json", package = "datasauce")
     t <- data_validate(f)
-    expect_is(t, TRUE)
+    expect_equal(t, TRUE)
   }) 
