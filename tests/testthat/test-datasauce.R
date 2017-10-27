@@ -4,10 +4,9 @@ library("datasauce")
 
 testthat::test_that(
   
-  "we can call datasauce",
+  "we can call dataset",
   {
     f <- system.file("extdata/example.json", package = "datasauce")
-    data_validate(f)
+    t <- data_validate(f)
+    expect_is(t, TRUE)
   }) 
-  }
-)
