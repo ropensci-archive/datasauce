@@ -1,4 +1,4 @@
-  '{  
+{  
     "$schema": "http://schema.org/Dataset",
     "type": "object",
     "properties" : {
@@ -56,4 +56,4 @@
         "description": "A citation for a publication that describes the dataset"
       }
    }
- }'
+ }
