@@ -41,6 +41,11 @@ full_classes <- classes %>%
 
 ## Prove we have fully descended the tree  
 full_classes %>% filter(!is.na(inherits.y.y.y.y))
+full_classes <- full_classes[1:6]
+names(full_classes) <- c("class", "inherits", "inherits.2", "inherits.3", "inherits.4", "inherits.5")
+classes <- full_classes
+readr::write_tsv(full_classes, "classes.tsv")
+
 
 classes %>% filter(class == "Dataset")
 ## Get me all valid properties of a class
@@ -60,14 +65,22 @@ WHERE {
 }
 "
 properties <- rdf_query(schema, paste0(prefixes,q))
+readr::write_tsv(properties, "properties.tsv")
+
+get_schema <- function(class){
+  x <- enquo(class)
+  inheritance <- filter(classes, class == !!x)[1,]
+  df <- filter(properties, class %in% inheritance)
+  df
+}
+
+ex <- get_schema("Dataset")
+types <- unique(ex$type)
+components <- lapply(types, get_schema)
+names(components) <- types
+
 
 # schema.org has only: 1,764 Properties?
-## properties of Dataset
-properties %>% filter(class == "Dataset")
-properties %>% filter(class == "CreativeWork")
-properties %>% filter(class == "Thing")
-
-classes %>% filter(class == "Thing")
 
 #library(jqr)
 #library(jsonlite)
