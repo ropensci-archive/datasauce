@@ -8,3 +8,4 @@
 ^\.httr-oauth$
 ^docs$
 ^\.github$
+^data-raw$
