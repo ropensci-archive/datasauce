@@ -22,6 +22,7 @@ get_schema <- function(object_type){
   dplyr::arrange(df, class)
 }
 
+#' @importFrom stats setNames
 get_schemas <- function(object_type){
   
   ex <- get_schema(object_type)
