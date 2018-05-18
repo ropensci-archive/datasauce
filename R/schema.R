@@ -4,12 +4,12 @@
 
 ## schema_defs 
 
-get_classes(){
+get_classes <- function(){
   schema_defs$classes
 }
 
 
-get_properties(){
+get_properties <- function(){
   schema_defs$properties
 }
 
@@ -35,4 +35,23 @@ get_schemas <- function(object_type){
   c(out, components[-drop])
 }
 
-dataset <- get_schemas("Dataset")
+
+#dataset <- get_schemas("Dataset")
+## Create function definitions
+
+# Thing <- template_constructor("Thing")
+template_constructor <- function(type){
+  df <- get_schema(type)
+  args <- unique(df$property)
+  f <- paste0("function(",
+              paste(args, "=", "NULL", collapse = ", "),
+              "){ Filter(Negate(is.null), list(",
+              paste(args, "=", args, collapse = ","),
+              "))}")
+  ## tidyf <- formatR::tidy_source(text=f, width.cutoff =80)
+  ## writeLines(tidyf, "R/constructors.R", append=TRUE)
+  
+  eval(parse(text = f))
+}
+
+
