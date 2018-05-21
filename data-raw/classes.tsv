@@ -1,753 +1,852 @@
-class	inherits	inherits.2	inherits.3	inherits.4	inherits.5
-Zoo	CivicStructure	Place	Thing	NA	NA
-WriteAction	CreateAction	Action	Thing	NA	NA
-Winery	FoodEstablishment	LocalBusiness	Place	Thing	NA
-Winery	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-WinAction	AchieveAction	Action	Thing	NA	NA
-WholesaleStore	Store	LocalBusiness	Place	Thing	NA
-WholesaleStore	Store	LocalBusiness	Organization	Thing	NA
-WebSite	CreativeWork	Thing	NA	NA	NA
-WebPageElement	CreativeWork	Thing	NA	NA	NA
-WebPage	CreativeWork	Thing	NA	NA	NA
-WebApplication	SoftwareApplication	CreativeWork	Thing	NA	NA
-WearAction	UseAction	ConsumeAction	Action	Thing	NA
-Waterfall	BodyOfWater	Landform	Place	Thing	NA
-WatchAction	ConsumeAction	Action	Thing	NA	NA
-WarrantyScope	Enumeration	Intangible	Thing	NA	NA
-WarrantyPromise	StructuredValue	Intangible	Thing	NA	NA
-WantAction	ReactAction	AssessAction	Action	Thing	NA
-WPSideBar	WebPageElement	CreativeWork	Thing	NA	NA
-WPHeader	WebPageElement	CreativeWork	Thing	NA	NA
-WPFooter	WebPageElement	CreativeWork	Thing	NA	NA
-WPAdBlock	WebPageElement	CreativeWork	Thing	NA	NA
-VoteAction	ChooseAction	AssessAction	Action	Thing	NA
-Volcano	Landform	Place	Thing	NA	NA
-VisualArtwork	CreativeWork	Thing	NA	NA	NA
-VisualArtsEvent	Event	Thing	NA	NA	NA
-ViewAction	ConsumeAction	Action	Thing	NA	NA
-VideoObject	MediaObject	CreativeWork	Thing	NA	NA
-VideoGameSeries	CreativeWorkSeries	Series	Intangible	Thing	NA
-VideoGameSeries	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-VideoGameClip	Clip	CreativeWork	Thing	NA	NA
-VideoGame	SoftwareApplication	CreativeWork	Thing	NA	NA
-VideoGame	Game	CreativeWork	Thing	NA	NA
-VideoGallery	CollectionPage	WebPage	CreativeWork	Thing	NA
-Vehicle	Product	Thing	NA	NA	NA
-UserTweets	UserInteraction	Event	Thing	NA	NA
-UserPlusOnes	UserInteraction	Event	Thing	NA	NA
-UserPlays	UserInteraction	Event	Thing	NA	NA
-UserPageVisits	UserInteraction	Event	Thing	NA	NA
-UserLikes	UserInteraction	Event	Thing	NA	NA
-UserInteraction	Event	Thing	NA	NA	NA
-UserDownloads	UserInteraction	Event	Thing	NA	NA
-UserComments	UserInteraction	Event	Thing	NA	NA
-UserCheckins	UserInteraction	Event	Thing	NA	NA
-UserBlocks	UserInteraction	Event	Thing	NA	NA
-UseAction	ConsumeAction	Action	Thing	NA	NA
-UpdateAction	Action	Thing	NA	NA	NA
-UnitPriceSpecification	PriceSpecification	StructuredValue	Intangible	Thing	NA
-UnRegisterAction	InteractAction	Action	Thing	NA	NA
-URL	Text	NA	NA	NA	NA
-TypeAndQuantityNode	StructuredValue	Intangible	Thing	NA	NA
-Trip	Intangible	Thing	NA	NA	NA
-TravelAgency	LocalBusiness	Place	Thing	NA	NA
-TravelAgency	LocalBusiness	Organization	Thing	NA	NA
-TravelAction	MoveAction	Action	Thing	NA	NA
-TransferAction	Action	Thing	NA	NA	NA
-TrainTrip	Trip	Intangible	Thing	NA	NA
-TrainStation	CivicStructure	Place	Thing	NA	NA
-TrainReservation	Reservation	Intangible	Thing	NA	NA
-TradeAction	Action	Thing	NA	NA	NA
-TrackAction	FindAction	Action	Thing	NA	NA
-ToyStore	Store	LocalBusiness	Place	Thing	NA
-ToyStore	Store	LocalBusiness	Organization	Thing	NA
-TouristInformationCenter	LocalBusiness	Place	Thing	NA	NA
-TouristInformationCenter	LocalBusiness	Organization	Thing	NA	NA
-TouristAttraction	Place	Thing	NA	NA	NA
-TireShop	Store	LocalBusiness	Place	Thing	NA
-TireShop	Store	LocalBusiness	Organization	Thing	NA
-TipAction	TradeAction	Action	Thing	NA	NA
-TieAction	AchieveAction	Action	Thing	NA	NA
-Ticket	Intangible	Thing	NA	NA	NA
-TheaterGroup	PerformingGroup	Organization	Thing	NA	NA
-TheaterEvent	Event	Thing	NA	NA	NA
-TextDigitalDocument	DigitalDocument	CreativeWork	Thing	NA	NA
-TennisComplex	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-TennisComplex	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-TelevisionStation	LocalBusiness	Place	Thing	NA	NA
-TelevisionStation	LocalBusiness	Organization	Thing	NA	NA
-TelevisionChannel	BroadcastChannel	Intangible	Thing	NA	NA
-TechArticle	Article	CreativeWork	Thing	NA	NA
-TaxiStand	CivicStructure	Place	Thing	NA	NA
-TaxiService	Service	Intangible	Thing	NA	NA
-TaxiReservation	Reservation	Intangible	Thing	NA	NA
-Taxi	Service	Intangible	Thing	NA	NA
-TattooParlor	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-TattooParlor	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-TakeAction	TransferAction	Action	Thing	NA	NA
-Table	WebPageElement	CreativeWork	Thing	NA	NA
-TVSeries	CreativeWorkSeries	Series	Intangible	Thing	NA
-TVSeries	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-TVSeries	CreativeWork	Thing	NA	NA	NA
-TVSeason	CreativeWorkSeason	CreativeWork	Thing	NA	NA
-TVSeason	CreativeWork	Thing	NA	NA	NA
-TVEpisode	Episode	CreativeWork	Thing	NA	NA
-TVClip	Clip	CreativeWork	Thing	NA	NA
-Synagogue	PlaceOfWorship	CivicStructure	Place	Thing	NA
-SuspendAction	ControlAction	Action	Thing	NA	NA
-Suite	Accommodation	Place	Thing	NA	NA
-SubwayStation	CivicStructure	Place	Thing	NA	NA
-SubscribeAction	InteractAction	Action	Thing	NA	NA
-StructuredValue	Intangible	Thing	NA	NA	NA
-Store	LocalBusiness	Place	Thing	NA	NA
-Store	LocalBusiness	Organization	Thing	NA	NA
-SteeringPositionValue	QualitativeValue	Enumeration	Intangible	Thing	NA
-State	AdministrativeArea	Place	Thing	NA	NA
-StadiumOrArena	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-StadiumOrArena	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-StadiumOrArena	CivicStructure	Place	Thing	NA	NA
-SpreadsheetDigitalDocument	DigitalDocument	CreativeWork	Thing	NA	NA
-SportsTeam	SportsOrganization	Organization	Thing	NA	NA
-SportsOrganization	Organization	Thing	NA	NA	NA
-SportsEvent	Event	Thing	NA	NA	NA
-SportsClub	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-SportsClub	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-SportsActivityLocation	LocalBusiness	Place	Thing	NA	NA
-SportsActivityLocation	LocalBusiness	Organization	Thing	NA	NA
-SportingGoodsStore	Store	LocalBusiness	Place	Thing	NA
-SportingGoodsStore	Store	LocalBusiness	Organization	Thing	NA
-Specialty	Enumeration	Intangible	Thing	NA	NA
-SomeProducts	Product	Thing	NA	NA	NA
-SoftwareSourceCode	CreativeWork	Thing	NA	NA	NA
-SoftwareApplication	CreativeWork	Thing	NA	NA	NA
-SocialMediaPosting	Article	CreativeWork	Thing	NA	NA
-SocialEvent	Event	Thing	NA	NA	NA
-SkiResort	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-SkiResort	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-SiteNavigationElement	WebPageElement	CreativeWork	Thing	NA	NA
-SingleFamilyResidence	House	Accommodation	Place	Thing	NA
-ShoppingCenter	LocalBusiness	Place	Thing	NA	NA
-ShoppingCenter	LocalBusiness	Organization	Thing	NA	NA
-ShoeStore	Store	LocalBusiness	Place	Thing	NA
-ShoeStore	Store	LocalBusiness	Organization	Thing	NA
-ShareAction	CommunicateAction	InteractAction	Action	Thing	NA
-ServiceChannel	Intangible	Thing	NA	NA	NA
-Service	Intangible	Thing	NA	NA	NA
-Series	Intangible	Thing	NA	NA	NA
-SendAction	TransferAction	Action	Thing	NA	NA
-SellAction	TradeAction	Action	Thing	NA	NA
-SelfStorage	LocalBusiness	Place	Thing	NA	NA
-SelfStorage	LocalBusiness	Organization	Thing	NA	NA
-Seat	Intangible	Thing	NA	NA	NA
-Season	CreativeWork	Thing	NA	NA	NA
-SearchResultsPage	WebPage	CreativeWork	Thing	NA	NA
-SearchAction	Action	Thing	NA	NA	NA
-SeaBodyOfWater	BodyOfWater	Landform	Place	Thing	NA
-Sculpture	CreativeWork	Thing	NA	NA	NA
-ScreeningEvent	Event	Thing	NA	NA	NA
-School	EducationalOrganization	Organization	Thing	NA	NA
-ScholarlyArticle	Article	CreativeWork	Thing	NA	NA
-ScheduleAction	PlanAction	OrganizeAction	Action	Thing	NA
-SaleEvent	Event	Thing	NA	NA	NA
-RsvpResponseType	Enumeration	Intangible	Thing	NA	NA
-RsvpAction	InformAction	CommunicateAction	InteractAction	Action	Thing
-Room	Accommodation	Place	Thing	NA	NA
-RoofingContractor	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-RoofingContractor	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-Role	Intangible	Thing	NA	NA	NA
-RiverBodyOfWater	BodyOfWater	Landform	Place	Thing	NA
-ReviewAction	AssessAction	Action	Thing	NA	NA
-Review	CreativeWork	Thing	NA	NA	NA
-ReturnAction	TransferAction	Action	Thing	NA	NA
-ResumeAction	ControlAction	Action	Thing	NA	NA
-RestrictedDiet	Enumeration	Intangible	Thing	NA	NA
-Restaurant	FoodEstablishment	LocalBusiness	Place	Thing	NA
-Restaurant	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-Resort	LodgingBusiness	LocalBusiness	Place	Thing	NA
-Resort	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-Residence	Place	Thing	NA	NA	NA
-Reservoir	BodyOfWater	Landform	Place	Thing	NA
-ReserveAction	PlanAction	OrganizeAction	Action	Thing	NA
-ReservationStatusType	Enumeration	Intangible	Thing	NA	NA
-ReservationPackage	Reservation	Intangible	Thing	NA	NA
-Reservation	Intangible	Thing	NA	NA	NA
-Report	Article	CreativeWork	Thing	NA	NA
-ReplyAction	CommunicateAction	InteractAction	Action	Thing	NA
-ReplaceAction	UpdateAction	Action	Thing	NA	NA
-RentalCarReservation	Reservation	Intangible	Thing	NA	NA
-RentAction	TradeAction	Action	Thing	NA	NA
-RejectAction	AllocateAction	OrganizeAction	Action	Thing	NA
-RegisterAction	InteractAction	Action	Thing	NA	NA
-RecyclingCenter	LocalBusiness	Place	Thing	NA	NA
-RecyclingCenter	LocalBusiness	Organization	Thing	NA	NA
-Recipe	HowTo	CreativeWork	Thing	NA	NA
-ReceiveAction	TransferAction	Action	Thing	NA	NA
-RealEstateAgent	LocalBusiness	Place	Thing	NA	NA
-RealEstateAgent	LocalBusiness	Organization	Thing	NA	NA
-ReadAction	ConsumeAction	Action	Thing	NA	NA
-ReactAction	AssessAction	Action	Thing	NA	NA
-Rating	Intangible	Thing	NA	NA	NA
-RadioStation	LocalBusiness	Place	Thing	NA	NA
-RadioStation	LocalBusiness	Organization	Thing	NA	NA
-RadioSeries	CreativeWorkSeries	Series	Intangible	Thing	NA
-RadioSeries	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-RadioSeason	CreativeWorkSeason	CreativeWork	Thing	NA	NA
-RadioEpisode	Episode	CreativeWork	Thing	NA	NA
-RadioClip	Clip	CreativeWork	Thing	NA	NA
-RadioChannel	BroadcastChannel	Intangible	Thing	NA	NA
-RVPark	CivicStructure	Place	Thing	NA	NA
-QuoteAction	TradeAction	Action	Thing	NA	NA
-Question	CreativeWork	Thing	NA	NA	NA
-Quantity	Intangible	Thing	NA	NA	NA
-QuantitativeValue	StructuredValue	Intangible	Thing	NA	NA
-QualitativeValue	Enumeration	Intangible	Thing	NA	NA
-QAPage	WebPage	CreativeWork	Thing	NA	NA
-PublicationVolume	CreativeWork	Thing	NA	NA	NA
-PublicationIssue	CreativeWork	Thing	NA	NA	NA
-PublicationEvent	Event	Thing	NA	NA	NA
-PublicSwimmingPool	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-PublicSwimmingPool	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-PropertyValueSpecification	Intangible	Thing	NA	NA	NA
-PropertyValue	StructuredValue	Intangible	Thing	NA	NA
-ProgramMembership	Intangible	Thing	NA	NA	NA
-ProfilePage	WebPage	CreativeWork	Thing	NA	NA
-ProfessionalService	LocalBusiness	Place	Thing	NA	NA
-ProfessionalService	LocalBusiness	Organization	Thing	NA	NA
-ProductModel	Product	Thing	NA	NA	NA
-Product	Thing	NA	NA	NA	NA
-PriceSpecification	StructuredValue	Intangible	Thing	NA	NA
-PresentationDigitalDocument	DigitalDocument	CreativeWork	Thing	NA	NA
-Preschool	EducationalOrganization	Organization	Thing	NA	NA
-PrependAction	InsertAction	AddAction	UpdateAction	Action	Thing
-PostalAddress	ContactPoint	StructuredValue	Intangible	Thing	NA
-PostOffice	GovernmentOffice	LocalBusiness	Place	Thing	NA
-PostOffice	GovernmentOffice	LocalBusiness	Organization	Thing	NA
-Pond	BodyOfWater	Landform	Place	Thing	NA
-PoliceStation	EmergencyService	LocalBusiness	Place	Thing	NA
-PoliceStation	EmergencyService	LocalBusiness	Organization	Thing	NA
-PoliceStation	CivicStructure	Place	Thing	NA	NA
-Plumber	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-Plumber	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-Playground	CivicStructure	Place	Thing	NA	NA
-PlayAction	Action	Thing	NA	NA	NA
-PlanAction	OrganizeAction	Action	Thing	NA	NA
-PlaceOfWorship	CivicStructure	Place	Thing	NA	NA
-Place	Thing	NA	NA	NA	NA
-Physician	MedicalOrganization	Organization	Thing	NA	NA
-PhotographAction	CreateAction	Action	Thing	NA	NA
-Photograph	CreativeWork	Thing	NA	NA	NA
-Pharmacy	MedicalOrganization	Organization	Thing	NA	NA
-PetStore	Store	LocalBusiness	Place	Thing	NA
-PetStore	Store	LocalBusiness	Organization	Thing	NA
-Person	Thing	NA	NA	NA	NA
-Permit	Intangible	Thing	NA	NA	NA
-Periodical	CreativeWorkSeries	Series	Intangible	Thing	NA
-Periodical	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-PerformingGroup	Organization	Thing	NA	NA	NA
-PerformingArtsTheater	CivicStructure	Place	Thing	NA	NA
-PerformanceRole	Role	Intangible	Thing	NA	NA
-PerformAction	PlayAction	Action	Thing	NA	NA
-PeopleAudience	Audience	Intangible	Thing	NA	NA
-PaymentStatusType	Enumeration	Intangible	Thing	NA	NA
-PaymentService	FinancialProduct	Service	Intangible	Thing	NA
-PaymentMethod	Enumeration	Intangible	Thing	NA	NA
-PaymentChargeSpecification	PriceSpecification	StructuredValue	Intangible	Thing	NA
-PaymentCard	PaymentMethod	Enumeration	Intangible	Thing	NA
-PaymentCard	FinancialProduct	Service	Intangible	Thing	NA
-PayAction	TradeAction	Action	Thing	NA	NA
-PawnShop	Store	LocalBusiness	Place	Thing	NA
-PawnShop	Store	LocalBusiness	Organization	Thing	NA
-ParkingFacility	CivicStructure	Place	Thing	NA	NA
-Park	CivicStructure	Place	Thing	NA	NA
-ParentAudience	PeopleAudience	Audience	Intangible	Thing	NA
-ParcelService	DeliveryMethod	Enumeration	Intangible	Thing	NA
-ParcelDelivery	Intangible	Thing	NA	NA	NA
-Painting	CreativeWork	Thing	NA	NA	NA
-PaintAction	CreateAction	Action	Thing	NA	NA
-OwnershipInfo	StructuredValue	Intangible	Thing	NA	NA
-OutletStore	Store	LocalBusiness	Place	Thing	NA
-OutletStore	Store	LocalBusiness	Organization	Thing	NA
-OrganizeAction	Action	Thing	NA	NA	NA
-OrganizationRole	Role	Intangible	Thing	NA	NA
-Organization	Thing	NA	NA	NA	NA
-OrderStatus	Enumeration	Intangible	Thing	NA	NA
-OrderItem	Intangible	Thing	NA	NA	NA
-OrderAction	TradeAction	Action	Thing	NA	NA
-Order	Intangible	Thing	NA	NA	NA
-OpeningHoursSpecification	StructuredValue	Intangible	Thing	NA	NA
-OnDemandEvent	PublicationEvent	Event	Thing	NA	NA
-OfficeEquipmentStore	Store	LocalBusiness	Place	Thing	NA
-OfficeEquipmentStore	Store	LocalBusiness	Organization	Thing	NA
-OfferItemCondition	Enumeration	Intangible	Thing	NA	NA
-OfferCatalog	ItemList	Intangible	Thing	NA	NA
-Offer	Intangible	Thing	NA	NA	NA
-OceanBodyOfWater	BodyOfWater	Landform	Place	Thing	NA
-NutritionInformation	StructuredValue	Intangible	Thing	NA	NA
-NoteDigitalDocument	DigitalDocument	CreativeWork	Thing	NA	NA
-Notary	LegalService	LocalBusiness	Place	Thing	NA
-Notary	LegalService	LocalBusiness	Organization	Thing	NA
-NightClub	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-NightClub	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-NewsArticle	Article	CreativeWork	Thing	NA	NA
-NailSalon	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-NailSalon	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-NGO	Organization	Thing	NA	NA	NA
-MusicVideoObject	MediaObject	CreativeWork	Thing	NA	NA
-MusicVenue	CivicStructure	Place	Thing	NA	NA
-MusicStore	Store	LocalBusiness	Place	Thing	NA
-MusicStore	Store	LocalBusiness	Organization	Thing	NA
-MusicReleaseFormatType	Enumeration	Intangible	Thing	NA	NA
-MusicRelease	MusicPlaylist	CreativeWork	Thing	NA	NA
-MusicRecording	CreativeWork	Thing	NA	NA	NA
-MusicPlaylist	CreativeWork	Thing	NA	NA	NA
-MusicGroup	PerformingGroup	Organization	Thing	NA	NA
-MusicEvent	Event	Thing	NA	NA	NA
-MusicComposition	CreativeWork	Thing	NA	NA	NA
-MusicAlbumReleaseType	Enumeration	Intangible	Thing	NA	NA
-MusicAlbumProductionType	Enumeration	Intangible	Thing	NA	NA
-MusicAlbum	MusicPlaylist	CreativeWork	Thing	NA	NA
-Museum	CivicStructure	Place	Thing	NA	NA
-MovingCompany	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-MovingCompany	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-MovieTheater	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-MovieTheater	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-MovieTheater	CivicStructure	Place	Thing	NA	NA
-MovieSeries	CreativeWorkSeries	Series	Intangible	Thing	NA
-MovieSeries	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-MovieRentalStore	Store	LocalBusiness	Place	Thing	NA
-MovieRentalStore	Store	LocalBusiness	Organization	Thing	NA
-MovieClip	Clip	CreativeWork	Thing	NA	NA
-Movie	CreativeWork	Thing	NA	NA	NA
-MoveAction	Action	Thing	NA	NA	NA
-Mountain	Landform	Place	Thing	NA	NA
-MotorcycleRepair	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-MotorcycleRepair	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-MotorcycleDealer	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-MotorcycleDealer	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-Motel	LodgingBusiness	LocalBusiness	Place	Thing	NA
-Motel	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-Mosque	PlaceOfWorship	CivicStructure	Place	Thing	NA
-MonetaryAmount	StructuredValue	Intangible	Thing	NA	NA
-MobilePhoneStore	Store	LocalBusiness	Place	Thing	NA
-MobilePhoneStore	Store	LocalBusiness	Organization	Thing	NA
-MobileApplication	SoftwareApplication	CreativeWork	Thing	NA	NA
-MiddleSchool	EducationalOrganization	Organization	Thing	NA	NA
-Message	CreativeWork	Thing	NA	NA	NA
-MenuSection	CreativeWork	Thing	NA	NA	NA
-MenuItem	Intangible	Thing	NA	NA	NA
-Menu	CreativeWork	Thing	NA	NA	NA
-MensClothingStore	Store	LocalBusiness	Place	Thing	NA
-MensClothingStore	Store	LocalBusiness	Organization	Thing	NA
-MeetingRoom	Room	Accommodation	Place	Thing	NA
-MedicalOrganization	Organization	Thing	NA	NA	NA
-MediaObject	CreativeWork	Thing	NA	NA	NA
-Mass	Quantity	Intangible	Thing	NA	NA
-MarryAction	InteractAction	Action	Thing	NA	NA
-MapCategoryType	Enumeration	Intangible	Thing	NA	NA
-Map	CreativeWork	Thing	NA	NA	NA
-LoseAction	AchieveAction	Action	Thing	NA	NA
-LodgingReservation	Reservation	Intangible	Thing	NA	NA
-LodgingBusiness	LocalBusiness	Place	Thing	NA	NA
-LodgingBusiness	LocalBusiness	Organization	Thing	NA	NA
-Locksmith	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-Locksmith	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-LockerDelivery	DeliveryMethod	Enumeration	Intangible	Thing	NA
-LocationFeatureSpecification	PropertyValue	StructuredValue	Intangible	Thing	NA
-LocalBusiness	Place	Thing	NA	NA	NA
-LocalBusiness	Organization	Thing	NA	NA	NA
-LoanOrCredit	FinancialProduct	Service	Intangible	Thing	NA
-LiveBlogPosting	BlogPosting	SocialMediaPosting	Article	CreativeWork	Thing
-LiteraryEvent	Event	Thing	NA	NA	NA
-ListenAction	ConsumeAction	Action	Thing	NA	NA
-ListItem	Intangible	Thing	NA	NA	NA
-LiquorStore	Store	LocalBusiness	Place	Thing	NA
-LiquorStore	Store	LocalBusiness	Organization	Thing	NA
-LikeAction	ReactAction	AssessAction	Action	Thing	NA
-Library	LocalBusiness	Place	Thing	NA	NA
-Library	LocalBusiness	Organization	Thing	NA	NA
-LendAction	TransferAction	Action	Thing	NA	NA
-LegislativeBuilding	GovernmentBuilding	CivicStructure	Place	Thing	NA
-LegalService	LocalBusiness	Place	Thing	NA	NA
-LegalService	LocalBusiness	Organization	Thing	NA	NA
-LeaveAction	InteractAction	Action	Thing	NA	NA
-Language	Intangible	Thing	NA	NA	NA
-LandmarksOrHistoricalBuildings	Place	Thing	NA	NA	NA
-Landform	Place	Thing	NA	NA	NA
-LakeBodyOfWater	BodyOfWater	Landform	Place	Thing	NA
-JoinAction	InteractAction	Action	Thing	NA	NA
-JobPosting	Intangible	Thing	NA	NA	NA
-JewelryStore	Store	LocalBusiness	Place	Thing	NA
-JewelryStore	Store	LocalBusiness	Organization	Thing	NA
-ItemPage	WebPage	CreativeWork	Thing	NA	NA
-ItemListOrderType	Enumeration	Intangible	Thing	NA	NA
-ItemList	Intangible	Thing	NA	NA	NA
-ItemAvailability	Enumeration	Intangible	Thing	NA	NA
-Invoice	Intangible	Thing	NA	NA	NA
-InviteAction	CommunicateAction	InteractAction	Action	Thing	NA
-InvestmentOrDeposit	FinancialProduct	Service	Intangible	Thing	NA
-InternetCafe	LocalBusiness	Place	Thing	NA	NA
-InternetCafe	LocalBusiness	Organization	Thing	NA	NA
-InteractionCounter	StructuredValue	Intangible	Thing	NA	NA
-InteractAction	Action	Thing	NA	NA	NA
-Integer	Number	NA	NA	NA	NA
-Intangible	Thing	NA	NA	NA	NA
-InsuranceAgency	FinancialService	LocalBusiness	Place	Thing	NA
-InsuranceAgency	FinancialService	LocalBusiness	Organization	Thing	NA
-InstallAction	ConsumeAction	Action	Thing	NA	NA
-InsertAction	AddAction	UpdateAction	Action	Thing	NA
-InformAction	CommunicateAction	InteractAction	Action	Thing	NA
-IndividualProduct	Product	Thing	NA	NA	NA
-ImageObject	MediaObject	CreativeWork	Thing	NA	NA
-ImageGallery	CollectionPage	WebPage	CreativeWork	Thing	NA
-IgnoreAction	AssessAction	Action	Thing	NA	NA
-IceCreamShop	FoodEstablishment	LocalBusiness	Place	Thing	NA
-IceCreamShop	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-HowToTool	HowToItem	ListItem	Intangible	Thing	NA
-HowToTip	ListItem	Intangible	Thing	NA	NA
-HowToTip	CreativeWork	Thing	NA	NA	NA
-HowToSupply	HowToItem	ListItem	Intangible	Thing	NA
-HowToStep	ListItem	Intangible	Thing	NA	NA
-HowToStep	ItemList	Intangible	Thing	NA	NA
-HowToStep	CreativeWork	Thing	NA	NA	NA
-HowToSection	ListItem	Intangible	Thing	NA	NA
-HowToSection	ItemList	Intangible	Thing	NA	NA
-HowToSection	CreativeWork	Thing	NA	NA	NA
-HowToItem	ListItem	Intangible	Thing	NA	NA
-HowToDirection	ListItem	Intangible	Thing	NA	NA
-HowToDirection	CreativeWork	Thing	NA	NA	NA
-HowTo	CreativeWork	Thing	NA	NA	NA
-HousePainter	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-HousePainter	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-House	Accommodation	Place	Thing	NA	NA
-HotelRoom	Room	Accommodation	Place	Thing	NA
-Hotel	LodgingBusiness	LocalBusiness	Place	Thing	NA
-Hotel	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-Hostel	LodgingBusiness	LocalBusiness	Place	Thing	NA
-Hostel	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-Hospital	MedicalOrganization	Organization	Thing	NA	NA
-Hospital	EmergencyService	LocalBusiness	Place	Thing	NA
-Hospital	EmergencyService	LocalBusiness	Organization	Thing	NA
-Hospital	CivicStructure	Place	Thing	NA	NA
-HomeGoodsStore	Store	LocalBusiness	Place	Thing	NA
-HomeGoodsStore	Store	LocalBusiness	Organization	Thing	NA
-HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA	NA
-HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA	NA
-HobbyShop	Store	LocalBusiness	Place	Thing	NA
-HobbyShop	Store	LocalBusiness	Organization	Thing	NA
-HinduTemple	PlaceOfWorship	CivicStructure	Place	Thing	NA
-HighSchool	EducationalOrganization	Organization	Thing	NA	NA
-HealthClub	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-HealthClub	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-HealthClub	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-HealthClub	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA	NA
-HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA	NA
-HardwareStore	Store	LocalBusiness	Place	Thing	NA
-HardwareStore	Store	LocalBusiness	Organization	Thing	NA
-HairSalon	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-HairSalon	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-HVACBusiness	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-HVACBusiness	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-GroceryStore	Store	LocalBusiness	Place	Thing	NA
-GroceryStore	Store	LocalBusiness	Organization	Thing	NA
-GovernmentService	Service	Intangible	Thing	NA	NA
-GovernmentPermit	Permit	Intangible	Thing	NA	NA
-GovernmentOrganization	Organization	Thing	NA	NA	NA
-GovernmentOffice	LocalBusiness	Place	Thing	NA	NA
-GovernmentOffice	LocalBusiness	Organization	Thing	NA	NA
-GovernmentBuilding	CivicStructure	Place	Thing	NA	NA
-GolfCourse	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-GolfCourse	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-GiveAction	TransferAction	Action	Thing	NA	NA
-GeoShape	StructuredValue	Intangible	Thing	NA	NA
-GeoCoordinates	StructuredValue	Intangible	Thing	NA	NA
-GeoCircle	GeoShape	StructuredValue	Intangible	Thing	NA
-GeneralContractor	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-GeneralContractor	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-GenderType	Enumeration	Intangible	Thing	NA	NA
-GatedResidenceCommunity	Residence	Place	Thing	NA	NA
-GasStation	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-GasStation	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-GardenStore	Store	LocalBusiness	Place	Thing	NA
-GardenStore	Store	LocalBusiness	Organization	Thing	NA
-GameServerStatus	Enumeration	Intangible	Thing	NA	NA
-GameServer	Intangible	Thing	NA	NA	NA
-GamePlayMode	Enumeration	Intangible	Thing	NA	NA
-Game	CreativeWork	Thing	NA	NA	NA
-FurnitureStore	Store	LocalBusiness	Place	Thing	NA
-FurnitureStore	Store	LocalBusiness	Organization	Thing	NA
-FoodService	Service	Intangible	Thing	NA	NA
-FoodEvent	Event	Thing	NA	NA	NA
-FoodEstablishmentReservation	Reservation	Intangible	Thing	NA	NA
-FoodEstablishment	LocalBusiness	Place	Thing	NA	NA
-FoodEstablishment	LocalBusiness	Organization	Thing	NA	NA
-FollowAction	InteractAction	Action	Thing	NA	NA
-Florist	Store	LocalBusiness	Place	Thing	NA
-Florist	Store	LocalBusiness	Organization	Thing	NA
-Float	Number	NA	NA	NA	NA
-FlightReservation	Reservation	Intangible	Thing	NA	NA
-Flight	Trip	Intangible	Thing	NA	NA
-FireStation	EmergencyService	LocalBusiness	Place	Thing	NA
-FireStation	EmergencyService	LocalBusiness	Organization	Thing	NA
-FireStation	CivicStructure	Place	Thing	NA	NA
-FindAction	Action	Thing	NA	NA	NA
-FinancialService	LocalBusiness	Place	Thing	NA	NA
-FinancialService	LocalBusiness	Organization	Thing	NA	NA
-FinancialProduct	Service	Intangible	Thing	NA	NA
-FilmAction	CreateAction	Action	Thing	NA	NA
-Festival	Event	Thing	NA	NA	NA
-FastFoodRestaurant	FoodEstablishment	LocalBusiness	Place	Thing	NA
-FastFoodRestaurant	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-ExhibitionEvent	Event	Thing	NA	NA	NA
-ExerciseGym	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-ExerciseGym	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-ExerciseAction	PlayAction	Action	Thing	NA	NA
-EventVenue	CivicStructure	Place	Thing	NA	NA
-EventStatusType	Enumeration	Intangible	Thing	NA	NA
-EventReservation	Reservation	Intangible	Thing	NA	NA
-Event	Thing	NA	NA	NA	NA
-Episode	CreativeWork	Thing	NA	NA	NA
-Enumeration	Intangible	Thing	NA	NA	NA
-EntryPoint	Intangible	Thing	NA	NA	NA
-EntertainmentBusiness	LocalBusiness	Place	Thing	NA	NA
-EntertainmentBusiness	LocalBusiness	Organization	Thing	NA	NA
-EngineSpecification	StructuredValue	Intangible	Thing	NA	NA
-Energy	Quantity	Intangible	Thing	NA	NA
-EndorseAction	ReactAction	AssessAction	Action	Thing	NA
-EmploymentAgency	LocalBusiness	Place	Thing	NA	NA
-EmploymentAgency	LocalBusiness	Organization	Thing	NA	NA
-EmployeeRole	OrganizationRole	Role	Intangible	Thing	NA
-EmergencyService	LocalBusiness	Place	Thing	NA	NA
-EmergencyService	LocalBusiness	Organization	Thing	NA	NA
-Embassy	GovernmentBuilding	CivicStructure	Place	Thing	NA
-EmailMessage	Message	CreativeWork	Thing	NA	NA
-ElementarySchool	EducationalOrganization	Organization	Thing	NA	NA
-ElectronicsStore	Store	LocalBusiness	Place	Thing	NA
-ElectronicsStore	Store	LocalBusiness	Organization	Thing	NA
-Electrician	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
-Electrician	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
-EducationalOrganization	Organization	Thing	NA	NA	NA
-EducationalAudience	Audience	Intangible	Thing	NA	NA
-EducationEvent	Event	Thing	NA	NA	NA
-EatAction	ConsumeAction	Action	Thing	NA	NA
-Duration	Quantity	Intangible	Thing	NA	NA
-DryCleaningOrLaundry	LocalBusiness	Place	Thing	NA	NA
-DryCleaningOrLaundry	LocalBusiness	Organization	Thing	NA	NA
-DriveWheelConfigurationValue	QualitativeValue	Enumeration	Intangible	Thing	NA
-DrinkAction	ConsumeAction	Action	Thing	NA	NA
-DrawAction	CreateAction	Action	Thing	NA	NA
-DownloadAction	TransferAction	Action	Thing	NA	NA
-DonateAction	TradeAction	Action	Thing	NA	NA
-Distance	Quantity	Intangible	Thing	NA	NA
-DislikeAction	ReactAction	AssessAction	Action	Thing	NA
-DiscussionForumPosting	SocialMediaPosting	Article	CreativeWork	Thing	NA
-DiscoverAction	FindAction	Action	Thing	NA	NA
-DisagreeAction	ReactAction	AssessAction	Action	Thing	NA
-DigitalDocumentPermissionType	Enumeration	Intangible	Thing	NA	NA
-DigitalDocumentPermission	Intangible	Thing	NA	NA	NA
-DigitalDocument	CreativeWork	Thing	NA	NA	NA
-DepositAccount	InvestmentOrDeposit	FinancialProduct	Service	Intangible	Thing
-DepositAccount	BankAccount	FinancialProduct	Service	Intangible	Thing
-DepartmentStore	Store	LocalBusiness	Place	Thing	NA
-DepartmentStore	Store	LocalBusiness	Organization	Thing	NA
-DepartAction	MoveAction	Action	Thing	NA	NA
-Dentist	MedicalOrganization	Organization	Thing	NA	NA
-Dentist	LocalBusiness	Place	Thing	NA	NA
-Dentist	LocalBusiness	Organization	Thing	NA	NA
-Demand	Intangible	Thing	NA	NA	NA
-DeliveryMethod	Enumeration	Intangible	Thing	NA	NA
-DeliveryEvent	Event	Thing	NA	NA	NA
-DeliveryChargeSpecification	PriceSpecification	StructuredValue	Intangible	Thing	NA
-DeleteAction	UpdateAction	Action	Thing	NA	NA
-DefenceEstablishment	GovernmentBuilding	CivicStructure	Place	Thing	NA
-DeactivateAction	ControlAction	Action	Thing	NA	NA
-DaySpa	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-DaySpa	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-DayOfWeek	Enumeration	Intangible	Thing	NA	NA
-DatedMoneySpecification	StructuredValue	Intangible	Thing	NA	NA
-Dataset	CreativeWork	Thing	NA	NA	NA
-DataFeedItem	Intangible	Thing	NA	NA	NA
-DataFeed	Dataset	CreativeWork	Thing	NA	NA
-DataDownload	MediaObject	CreativeWork	Thing	NA	NA
-DataCatalog	CreativeWork	Thing	NA	NA	NA
-DanceGroup	PerformingGroup	Organization	Thing	NA	NA
-DanceEvent	Event	Thing	NA	NA	NA
-CurrencyConversionService	FinancialProduct	Service	Intangible	Thing	NA
-Crematorium	CivicStructure	Place	Thing	NA	NA
-CreditCard	PaymentCard	PaymentMethod	Enumeration	Intangible	Thing
-CreditCard	PaymentCard	FinancialProduct	Service	Intangible	Thing
-CreditCard	LoanOrCredit	FinancialProduct	Service	Intangible	Thing
-CreativeWorkSeries	Series	Intangible	Thing	NA	NA
-CreativeWorkSeries	CreativeWork	Thing	NA	NA	NA
-CreativeWorkSeason	CreativeWork	Thing	NA	NA	NA
-CreativeWork	Thing	NA	NA	NA	NA
-CreateAction	Action	Thing	NA	NA	NA
-Courthouse	GovernmentBuilding	CivicStructure	Place	Thing	NA
-CourseInstance	Event	Thing	NA	NA	NA
-Course	CreativeWork	Thing	NA	NA	NA
-Country	AdministrativeArea	Place	Thing	NA	NA
-Corporation	Organization	Thing	NA	NA	NA
-CookAction	CreateAction	Action	Thing	NA	NA
-Conversation	CreativeWork	Thing	NA	NA	NA
-ConvenienceStore	Store	LocalBusiness	Place	Thing	NA
-ConvenienceStore	Store	LocalBusiness	Organization	Thing	NA
-ControlAction	Action	Thing	NA	NA	NA
-Continent	Landform	Place	Thing	NA	NA
-ContactPointOption	Enumeration	Intangible	Thing	NA	NA
-ContactPoint	StructuredValue	Intangible	Thing	NA	NA
-ContactPage	WebPage	CreativeWork	Thing	NA	NA
-ConsumeAction	Action	Thing	NA	NA	NA
-ConfirmAction	InformAction	CommunicateAction	InteractAction	Action	Thing
-ComputerStore	Store	LocalBusiness	Place	Thing	NA
-ComputerStore	Store	LocalBusiness	Organization	Thing	NA
-ComputerLanguage	Intangible	Thing	NA	NA	NA
-CompoundPriceSpecification	PriceSpecification	StructuredValue	Intangible	Thing	NA
-CommunicateAction	InteractAction	Action	Thing	NA	NA
-CommentAction	CommunicateAction	InteractAction	Action	Thing	NA
-Comment	CreativeWork	Thing	NA	NA	NA
-ComedyEvent	Event	Thing	NA	NA	NA
-ComedyClub	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-ComedyClub	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-CollegeOrUniversity	EducationalOrganization	Organization	Thing	NA	NA
-CollectionPage	WebPage	CreativeWork	Thing	NA	NA
-Code	CreativeWork	Thing	NA	NA	NA
-ClothingStore	Store	LocalBusiness	Place	Thing	NA
-ClothingStore	Store	LocalBusiness	Organization	Thing	NA
-Clip	CreativeWork	Thing	NA	NA	NA
-ClaimReview	Review	CreativeWork	Thing	NA	NA
-CivicStructure	Place	Thing	NA	NA	NA
-CityHall	GovernmentBuilding	CivicStructure	Place	Thing	NA
-City	AdministrativeArea	Place	Thing	NA	NA
-Church	PlaceOfWorship	CivicStructure	Place	Thing	NA
-ChooseAction	AssessAction	Action	Thing	NA	NA
-ChildrensEvent	Event	Thing	NA	NA	NA
-ChildCare	LocalBusiness	Place	Thing	NA	NA
-ChildCare	LocalBusiness	Organization	Thing	NA	NA
-CheckoutPage	WebPage	CreativeWork	Thing	NA	NA
-CheckOutAction	CommunicateAction	InteractAction	Action	Thing	NA
-CheckInAction	CommunicateAction	InteractAction	Action	Thing	NA
-CheckAction	FindAction	Action	Thing	NA	NA
-Cemetery	CivicStructure	Place	Thing	NA	NA
-CatholicChurch	PlaceOfWorship	CivicStructure	Place	Thing	NA
-Casino	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-Casino	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-Car	Vehicle	Product	Thing	NA	NA
-CancelAction	PlanAction	OrganizeAction	Action	Thing	NA
-Canal	BodyOfWater	Landform	Place	Thing	NA
-CampingPitch	Accommodation	Place	Thing	NA	NA
-Campground	LodgingBusiness	LocalBusiness	Place	Thing	NA
-Campground	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-Campground	CivicStructure	Place	Thing	NA	NA
-CafeOrCoffeeShop	FoodEstablishment	LocalBusiness	Place	Thing	NA
-CafeOrCoffeeShop	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-CableOrSatelliteService	Service	Intangible	Thing	NA	NA
-BuyAction	TradeAction	Action	Thing	NA	NA
-BusinessFunction	Enumeration	Intangible	Thing	NA	NA
-BusinessEvent	Event	Thing	NA	NA	NA
-BusinessEntityType	Enumeration	Intangible	Thing	NA	NA
-BusinessAudience	Audience	Intangible	Thing	NA	NA
-BusTrip	Trip	Intangible	Thing	NA	NA
-BusStop	CivicStructure	Place	Thing	NA	NA
-BusStation	CivicStructure	Place	Thing	NA	NA
-BusReservation	Reservation	Intangible	Thing	NA	NA
-BuddhistTemple	PlaceOfWorship	CivicStructure	Place	Thing	NA
-BroadcastService	Service	Intangible	Thing	NA	NA
-BroadcastEvent	PublicationEvent	Event	Thing	NA	NA
-BroadcastChannel	Intangible	Thing	NA	NA	NA
-Bridge	CivicStructure	Place	Thing	NA	NA
-Brewery	FoodEstablishment	LocalBusiness	Place	Thing	NA
-Brewery	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-BreadcrumbList	ItemList	Intangible	Thing	NA	NA
-Brand	Intangible	Thing	NA	NA	NA
-BowlingAlley	SportsActivityLocation	LocalBusiness	Place	Thing	NA
-BowlingAlley	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
-BorrowAction	TransferAction	Action	Thing	NA	NA
-BookmarkAction	OrganizeAction	Action	Thing	NA	NA
-BookStore	Store	LocalBusiness	Place	Thing	NA
-BookStore	Store	LocalBusiness	Organization	Thing	NA
-BookSeries	CreativeWorkSeries	Series	Intangible	Thing	NA
-BookSeries	CreativeWorkSeries	CreativeWork	Thing	NA	NA
-BookFormatType	Enumeration	Intangible	Thing	NA	NA
-Book	CreativeWork	Thing	NA	NA	NA
-BodyOfWater	Landform	Place	Thing	NA	NA
-BoardingPolicyType	Enumeration	Intangible	Thing	NA	NA
-BlogPosting	SocialMediaPosting	Article	CreativeWork	Thing	NA
-Blog	CreativeWork	Thing	NA	NA	NA
-BikeStore	Store	LocalBusiness	Place	Thing	NA
-BikeStore	Store	LocalBusiness	Organization	Thing	NA
-BefriendAction	InteractAction	Action	Thing	NA	NA
-BedDetails	Intangible	Thing	NA	NA	NA
-BedAndBreakfast	LodgingBusiness	LocalBusiness	Place	Thing	NA
-BedAndBreakfast	LodgingBusiness	LocalBusiness	Organization	Thing	NA
-BeautySalon	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
-BeautySalon	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
-Beach	CivicStructure	Place	Thing	NA	NA
-Barcode	ImageObject	MediaObject	CreativeWork	Thing	NA
-BarOrPub	FoodEstablishment	LocalBusiness	Place	Thing	NA
-BarOrPub	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-BankOrCreditUnion	FinancialService	LocalBusiness	Place	Thing	NA
-BankOrCreditUnion	FinancialService	LocalBusiness	Organization	Thing	NA
-BankAccount	FinancialProduct	Service	Intangible	Thing	NA
-Bakery	FoodEstablishment	LocalBusiness	Place	Thing	NA
-Bakery	FoodEstablishment	LocalBusiness	Organization	Thing	NA
-AutomotiveBusiness	LocalBusiness	Place	Thing	NA	NA
-AutomotiveBusiness	LocalBusiness	Organization	Thing	NA	NA
-AutomatedTeller	FinancialService	LocalBusiness	Place	Thing	NA
-AutomatedTeller	FinancialService	LocalBusiness	Organization	Thing	NA
-AutoWash	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoWash	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AutoRepair	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoRepair	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AutoRental	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoRental	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AutoPartsStore	Store	LocalBusiness	Place	Thing	NA
-AutoPartsStore	Store	LocalBusiness	Organization	Thing	NA
-AutoPartsStore	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoPartsStore	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AutoDealer	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoDealer	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AutoBodyShop	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
-AutoBodyShop	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
-AuthorizeAction	AllocateAction	OrganizeAction	Action	Thing	NA
-AudioObject	MediaObject	CreativeWork	Thing	NA	NA
-Audience	Intangible	Thing	NA	NA	NA
-Attorney	LegalService	LocalBusiness	Place	Thing	NA
-Attorney	LegalService	LocalBusiness	Organization	Thing	NA
-AssignAction	AllocateAction	OrganizeAction	Action	Thing	NA
-AssessAction	Action	Thing	NA	NA	NA
-AskAction	CommunicateAction	InteractAction	Action	Thing	NA
-Article	CreativeWork	Thing	NA	NA	NA
-ArtGallery	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-ArtGallery	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-ArriveAction	MoveAction	Action	Thing	NA	NA
-Aquarium	CivicStructure	Place	Thing	NA	NA
-ApplyAction	OrganizeAction	Action	Thing	NA	NA
-AppendAction	InsertAction	AddAction	UpdateAction	Action	Thing
-ApartmentComplex	Residence	Place	Thing	NA	NA
-Apartment	Accommodation	Place	Thing	NA	NA
-Answer	Comment	CreativeWork	Thing	NA	NA
-AnimalShelter	LocalBusiness	Place	Thing	NA	NA
-AnimalShelter	LocalBusiness	Organization	Thing	NA	NA
-AmusementPark	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-AmusementPark	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-AllocateAction	OrganizeAction	Action	Thing	NA	NA
-AlignmentObject	Intangible	Thing	NA	NA	NA
-Airport	CivicStructure	Place	Thing	NA	NA
-Airline	Organization	Thing	NA	NA	NA
-AgreeAction	ReactAction	AssessAction	Action	Thing	NA
-AggregateRating	Rating	Intangible	Thing	NA	NA
-AggregateOffer	Offer	Intangible	Thing	NA	NA
-AdultEntertainment	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
-AdultEntertainment	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
-AdministrativeArea	Place	Thing	NA	NA	NA
-AddAction	UpdateAction	Action	Thing	NA	NA
-ActivateAction	ControlAction	Action	Thing	NA	NA
-ActionStatusType	Enumeration	Intangible	Thing	NA	NA
-Action	Thing	NA	NA	NA	NA
-AchieveAction	Action	Thing	NA	NA	NA
-AccountingService	FinancialService	LocalBusiness	Place	Thing	NA
-AccountingService	FinancialService	LocalBusiness	Organization	Thing	NA
-Accommodation	Place	Thing	NA	NA	NA
-AcceptAction	AllocateAction	OrganizeAction	Action	Thing	NA
-AboutPage	WebPage	CreativeWork	Thing	NA	NA
-APIReference	TechArticle	Article	CreativeWork	Thing	NA
+class	description	inherits	inherits.2	inherits.3	inherits.4	inherits.5
+Zoo	A zoo.	CivicStructure	Place	Thing	NA	NA
+WriteAction	The act of authoring written creative content.	CreateAction	Action	Thing	NA	NA
+Winery	A winery.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+Winery	A winery.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+WinAction	The act of achieving victory in a competitive activity.	AchieveAction	Action	Thing	NA	NA
+WholesaleStore	A wholesale store.	Store	LocalBusiness	Place	Thing	NA
+WholesaleStore	A wholesale store.	Store	LocalBusiness	Organization	Thing	NA
+WebSite	A WebSite is a set of related web pages and other items typically served from a single web domain and accessible via URLs.	CreativeWork	Thing	NA	NA	NA
+WebPageElement	A web page element, like a table or an image.	CreativeWork	Thing	NA	NA	NA
+WebPage	A web page. Every web page is implicitly assumed to be declared to be of type WebPage, so the various properties about that webpage, such as <code>breadcrumb</code> may be used. We recommend explicit declaration if these properties are specified, but if they are found outside of an itemscope, they will be assumed to be about the page.	CreativeWork	Thing	NA	NA	NA
+WebApplication	Web applications.	SoftwareApplication	CreativeWork	Thing	NA	NA
+WearAction	The act of dressing oneself in clothing.	UseAction	ConsumeAction	Action	Thing	NA
+Waterfall	A waterfall, like Niagara.	BodyOfWater	Landform	Place	Thing	NA
+WatchAction	The act of consuming dynamic/moving visual content.	ConsumeAction	Action	Thing	NA	NA
+WarrantyScope	"A range of of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#Labor-BringIn\n* http://purl.org/goodrelations/v1#PartsAndLabor-BringIn\n* http://purl.org/goodrelations/v1#PartsAndLabor-PickUp
+"	Enumeration	Intangible	Thing	NA	NA
+WarrantyPromise	A structured value representing the duration and scope of services that will be provided to a customer free of charge in case of a defect or malfunction of a product.	StructuredValue	Intangible	Thing	NA	NA
+WantAction	The act of expressing a desire about the object. An agent wants an object.	ReactAction	AssessAction	Action	Thing	NA
+WPSideBar	A sidebar section of the page.	WebPageElement	CreativeWork	Thing	NA	NA
+WPHeader	The header section of the page.	WebPageElement	CreativeWork	Thing	NA	NA
+WPFooter	The footer section of the page.	WebPageElement	CreativeWork	Thing	NA	NA
+WPAdBlock	An advertising section of the page.	WebPageElement	CreativeWork	Thing	NA	NA
+VoteAction	The act of expressing a preference from a fixed/finite/structured set of choices/options.	ChooseAction	AssessAction	Action	Thing	NA
+Volcano	A volcano, like Fuji san.	Landform	Place	Thing	NA	NA
+VisualArtwork	A work of art that is primarily visual in character.	CreativeWork	Thing	NA	NA	NA
+VisualArtsEvent	Event type: Visual arts event.	Event	Thing	NA	NA	NA
+ViewAction	The act of consuming static visual content.	ConsumeAction	Action	Thing	NA	NA
+VideoObject	A video file.	MediaObject	CreativeWork	Thing	NA	NA
+VideoGameSeries	A video game series.	CreativeWorkSeries	Series	Intangible	Thing	NA
+VideoGameSeries	A video game series.	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+VideoGameClip	A short segment/part of a video game.	Clip	CreativeWork	Thing	NA	NA
+VideoGame	A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device.	SoftwareApplication	CreativeWork	Thing	NA	NA
+VideoGame	A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device.	Game	CreativeWork	Thing	NA	NA
+VideoGallery	Web page type: Video gallery page.	CollectionPage	WebPage	CreativeWork	Thing	NA
+Vehicle	A vehicle is a device that is designed or used to transport people or cargo over land, water, air, or through space.	Product	Thing	NA	NA	NA
+UserTweets	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserPlusOnes	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserPlays	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserPageVisits	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserLikes	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserInteraction	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	Event	Thing	NA	NA	NA
+UserDownloads	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserComments	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserCheckins	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UserBlocks	UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use [[Action]]-based vocabulary, alongside types such as [[Comment]].	UserInteraction	Event	Thing	NA	NA
+UseAction	The act of applying an object to its intended purpose.	ConsumeAction	Action	Thing	NA	NA
+UpdateAction	The act of managing by changing/editing the state of the object.	Action	Thing	NA	NA	NA
+UnitPriceSpecification	The price asked for a given offer by the respective organization or person.	PriceSpecification	StructuredValue	Intangible	Thing	NA
+UnRegisterAction	The act of un-registering from a service.\n\nRelated actions:\n\n* [[RegisterAction]]: antonym of UnRegisterAction.\n* [[Leave]]: Unlike LeaveAction, UnRegisterAction implies that you are unregistering from a service you werer previously registered, rather than leaving a team/group of people.	InteractAction	Action	Thing	NA	NA
+URL	Data type: URL.	Text	NA	NA	NA	NA
+TypeAndQuantityNode	A structured value indicating the quantity, unit of measurement, and business function of goods included in a bundle offer.	StructuredValue	Intangible	Thing	NA	NA
+Trip	A trip or journey. An itinerary of visits to one or more places.	Intangible	Thing	NA	NA	NA
+TravelAgency	A travel agency.	LocalBusiness	Place	Thing	NA	NA
+TravelAgency	A travel agency.	LocalBusiness	Organization	Thing	NA	NA
+TravelAction	The act of traveling from an fromLocation to a destination by a specified mode of transport, optionally with participants.	MoveAction	Action	Thing	NA	NA
+TransferAction	The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another.	Action	Thing	NA	NA	NA
+TrainTrip	A trip on a commercial train line.	Trip	Intangible	Thing	NA	NA
+TrainStation	A train station.	CivicStructure	Place	Thing	NA	NA
+TrainReservation	A reservation for train travel.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]].	Reservation	Intangible	Thing	NA	NA
+TradeAction	The act of participating in an exchange of goods and services for monetary compensation. An agent trades an object, product or service with a participant in exchange for a one time or periodic payment.	Action	Thing	NA	NA	NA
+TrackAction	An agent tracks an object for updates.\n\nRelated actions:\n\n* [[FollowAction]]: Unlike FollowAction, TrackAction refers to the interest on the location of innanimates objects.\n* [[SubscribeAction]]: Unlike SubscribeAction, TrackAction refers to  the interest on the location of innanimate objects.	FindAction	Action	Thing	NA	NA
+ToyStore	A toy store.	Store	LocalBusiness	Place	Thing	NA
+ToyStore	A toy store.	Store	LocalBusiness	Organization	Thing	NA
+TouristInformationCenter	A tourist information center.	LocalBusiness	Place	Thing	NA	NA
+TouristInformationCenter	A tourist information center.	LocalBusiness	Organization	Thing	NA	NA
+TouristAttraction	A tourist attraction.  In principle any Thing can be a [[TouristAttraction]], from a [[Mountain]] and [[LandmarksOrHistoricalBuildings]] to a [[LocalBusiness]].  This Type can be used on its own to describe a general [[TourstAttraction]], or be used as an [[additionalType]] to add tourist attraction properties to any other type.  (See examples below)	Place	Thing	NA	NA	NA
+TireShop	A tire shop.	Store	LocalBusiness	Place	Thing	NA
+TireShop	A tire shop.	Store	LocalBusiness	Organization	Thing	NA
+TipAction	The act of giving money voluntarily to a beneficiary in recognition of services rendered.	TradeAction	Action	Thing	NA	NA
+Time	A point in time recurring on multiple days in the form hh:mm:ss[Z|(+|-)hh:mm] (see [XML schema for details](http://www.w3.org/TR/xmlschema-2/#time)).	NA	NA	NA	NA	NA
+TieAction	The act of reaching a draw in a competitive activity.	AchieveAction	Action	Thing	NA	NA
+Ticket	Used to describe a ticket to an event, a flight, a bus ride, etc.	Intangible	Thing	NA	NA	NA
+Thing	The most generic type of item.	NA	NA	NA	NA	NA
+TheaterGroup	A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.	PerformingGroup	Organization	Thing	NA	NA
+TheaterEvent	Event type: Theater performance.	Event	Thing	NA	NA	NA
+TextDigitalDocument	A file composed primarily of text.	DigitalDocument	CreativeWork	Thing	NA	NA
+Text	Data type: Text.	NA	NA	NA	NA	NA
+TennisComplex	A tennis complex.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+TennisComplex	A tennis complex.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+TelevisionStation	A television station.	LocalBusiness	Place	Thing	NA	NA
+TelevisionStation	A television station.	LocalBusiness	Organization	Thing	NA	NA
+TelevisionChannel	A unique instance of a television BroadcastService on a CableOrSatelliteService lineup.	BroadcastChannel	Intangible	Thing	NA	NA
+TechArticle	A technical article - Example: How-to (task) topics, step-by-step, procedural troubleshooting, specifications, etc.	Article	CreativeWork	Thing	NA	NA
+TaxiStand	A taxi stand.	CivicStructure	Place	Thing	NA	NA
+TaxiService	A service for a vehicle for hire with a driver for local travel. Fares are usually calculated based on distance traveled.	Service	Intangible	Thing	NA	NA
+TaxiReservation	A reservation for a taxi.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]].	Reservation	Intangible	Thing	NA	NA
+Taxi	A taxi.	Service	Intangible	Thing	NA	NA
+TattooParlor	A tattoo parlor.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+TattooParlor	A tattoo parlor.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+TakeAction	The act of gaining ownership of an object from an origin. Reciprocal of GiveAction.\n\nRelated actions:\n\n* [[GiveAction]]: The reciprocal of TakeAction.\n* [[ReceiveAction]]: Unlike ReceiveAction, TakeAction implies that ownership has been transfered.	TransferAction	Action	Thing	NA	NA
+Table	A table on a Web page.	WebPageElement	CreativeWork	Thing	NA	NA
+TVSeries	CreativeWorkSeries dedicated to TV broadcast and associated online delivery.	CreativeWorkSeries	Series	Intangible	Thing	NA
+TVSeries	CreativeWorkSeries dedicated to TV broadcast and associated online delivery.	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+TVSeries	CreativeWorkSeries dedicated to TV broadcast and associated online delivery.	CreativeWork	Thing	NA	NA	NA
+TVSeason	Season dedicated to TV broadcast and associated online delivery.	CreativeWorkSeason	CreativeWork	Thing	NA	NA
+TVSeason	Season dedicated to TV broadcast and associated online delivery.	CreativeWork	Thing	NA	NA	NA
+TVEpisode	A TV episode which can be part of a series or season.	Episode	CreativeWork	Thing	NA	NA
+TVClip	A short TV program or a segment/part of a TV program.	Clip	CreativeWork	Thing	NA	NA
+Synagogue	A synagogue.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+SuspendAction	The act of momentarily pausing a device or application (e.g. pause music playback or pause a timer).	ControlAction	Action	Thing	NA	NA
+Suite	"A suite in a hotel or other public accommodation, denotes a class of luxury accommodations, the key feature of which is multiple rooms (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Suite_(hotel)"">http://en.wikipedia.org/wiki/Suite_(hotel)</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Accommodation	Place	Thing	NA	NA
+SubwayStation	A subway station.	CivicStructure	Place	Thing	NA	NA
+SubscribeAction	The act of forming a personal connection with someone/something (object) unidirectionally/asymmetrically to get updates pushed to.\n\nRelated actions:\n\n* [[FollowAction]]: Unlike FollowAction, SubscribeAction implies that the subscriber acts as a passive agent being constantly/actively pushed for updates.\n* [[RegisterAction]]: Unlike RegisterAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object.\n* [[JoinAction]]: Unlike JoinAction, SubscribeAction implies that the agent is interested in continuing receiving updates from the object.	InteractAction	Action	Thing	NA	NA
+StructuredValue	Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.	Intangible	Thing	NA	NA	NA
+Store	A retail good store.	LocalBusiness	Place	Thing	NA	NA
+Store	A retail good store.	LocalBusiness	Organization	Thing	NA	NA
+SteeringPositionValue	A value indicating a steering position.	QualitativeValue	Enumeration	Intangible	Thing	NA
+State	A state or province of a country.	AdministrativeArea	Place	Thing	NA	NA
+StadiumOrArena	A stadium.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+StadiumOrArena	A stadium.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+StadiumOrArena	A stadium.	CivicStructure	Place	Thing	NA	NA
+SpreadsheetDigitalDocument	A spreadsheet file.	DigitalDocument	CreativeWork	Thing	NA	NA
+SportsTeam	Organization: Sports team.	SportsOrganization	Organization	Thing	NA	NA
+SportsOrganization	Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations.	Organization	Thing	NA	NA	NA
+SportsEvent	Event type: Sports event.	Event	Thing	NA	NA	NA
+SportsClub	A sports club.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+SportsClub	A sports club.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+SportsActivityLocation	A sports location, such as a playing field.	LocalBusiness	Place	Thing	NA	NA
+SportsActivityLocation	A sports location, such as a playing field.	LocalBusiness	Organization	Thing	NA	NA
+SportingGoodsStore	A sporting goods store.	Store	LocalBusiness	Place	Thing	NA
+SportingGoodsStore	A sporting goods store.	Store	LocalBusiness	Organization	Thing	NA
+Specialty	Any branch of a field in which people typically develop specific expertise, usually after significant study, time, and effort.	Enumeration	Intangible	Thing	NA	NA
+SomeProducts	A placeholder for multiple similar products of the same kind.	Product	Thing	NA	NA	NA
+SoftwareSourceCode	Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.	CreativeWork	Thing	NA	NA	NA
+SoftwareApplication	A software application.	CreativeWork	Thing	NA	NA	NA
+SocialMediaPosting	A post to a social media platform, including blog posts, tweets, Facebook posts, etc.	Article	CreativeWork	Thing	NA	NA
+SocialEvent	Event type: Social event.	Event	Thing	NA	NA	NA
+SkiResort	A ski resort.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+SkiResort	A ski resort.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+SiteNavigationElement	A navigation element of the page.	WebPageElement	CreativeWork	Thing	NA	NA
+SingleFamilyResidence	Residence type: Single-family home.	House	Accommodation	Place	Thing	NA
+ShoppingCenter	A shopping center or mall.	LocalBusiness	Place	Thing	NA	NA
+ShoppingCenter	A shopping center or mall.	LocalBusiness	Organization	Thing	NA	NA
+ShoeStore	A shoe store.	Store	LocalBusiness	Place	Thing	NA
+ShoeStore	A shoe store.	Store	LocalBusiness	Organization	Thing	NA
+ShareAction	The act of distributing content to people for their amusement or edification.	CommunicateAction	InteractAction	Action	Thing	NA
+ServiceChannel	A means for accessing a service, e.g. a government office location, web site, or phone number.	Intangible	Thing	NA	NA	NA
+Service	A service provided by an organization, e.g. delivery service, print services, etc.	Intangible	Thing	NA	NA	NA
+Series	"
+          A Series in schema.org is a group of related items, typically but not necessarily of the same kind. See also [[CreativeWorkSeries]], [[EventSeries]]."	Intangible	Thing	NA	NA	NA
+SendAction	The act of physically/electronically dispatching an object for transfer from an origin to a destination.Related actions:\n\n* [[ReceiveAction]]: The reciprocal of SendAction.\n* [[GiveAction]]: Unlike GiveAction, SendAction does not imply the transfer of ownership (e.g. I can send you my laptop, but I'm not necessarily giving it to you).	TransferAction	Action	Thing	NA	NA
+SellAction	The act of taking money from a buyer in exchange for goods or services rendered. An agent sells an object, product, or service to a buyer for a price. Reciprocal of BuyAction.	TradeAction	Action	Thing	NA	NA
+SelfStorage	A self-storage facility.	LocalBusiness	Place	Thing	NA	NA
+SelfStorage	A self-storage facility.	LocalBusiness	Organization	Thing	NA	NA
+Seat	Used to describe a seat, such as a reserved seat in an event reservation.	Intangible	Thing	NA	NA	NA
+Season	A media season e.g. tv, radio, video game etc.	CreativeWork	Thing	NA	NA	NA
+SearchResultsPage	Web page type: Search results page.	WebPage	CreativeWork	Thing	NA	NA
+SearchAction	The act of searching for an object.\n\nRelated actions:\n\n* [[FindAction]]: SearchAction generally leads to a FindAction, but not necessarily.	Action	Thing	NA	NA	NA
+SeaBodyOfWater	A sea (for example, the Caspian sea).	BodyOfWater	Landform	Place	Thing	NA
+Sculpture	A piece of sculpture.	CreativeWork	Thing	NA	NA	NA
+ScreeningEvent	A screening of a movie or other video.	Event	Thing	NA	NA	NA
+School	A school.	EducationalOrganization	Organization	Thing	NA	NA
+ScholarlyArticle	A scholarly article.	Article	CreativeWork	Thing	NA	NA
+ScheduleAction	Scheduling future actions, events, or tasks.\n\nRelated actions:\n\n* [[ReserveAction]]: Unlike ReserveAction, ScheduleAction allocates future actions (e.g. an event, a task, etc) towards a time slot / spatial allocation.	PlanAction	OrganizeAction	Action	Thing	NA
+SaleEvent	Event type: Sales event.	Event	Thing	NA	NA	NA
+RsvpResponseType	RsvpResponseType is an enumeration type whose instances represent responding to an RSVP request.	Enumeration	Intangible	Thing	NA	NA
+RsvpAction	The act of notifying an event organizer as to whether you expect to attend the event.	InformAction	CommunicateAction	InteractAction	Action	Thing
+Room	"A room is a distinguishable space within a structure, usually separated from other spaces by interior walls. (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Room"">http://en.wikipedia.org/wiki/Room</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Accommodation	Place	Thing	NA	NA
+RoofingContractor	A roofing contractor.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+RoofingContractor	A roofing contractor.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+Role	Represents additional information about a relationship or property. For example a Role can be used to say that a 'member' role linking some SportsTeam to a player occurred during a particular time period. Or that a Person's 'actor' role in a Movie was for some particular characterName. Such properties can be attached to a Role entity, which is then associated with the main entities using ordinary properties like 'member' or 'actor'.\n\nSee also [blog post](http://blog.schema.org/2014/06/introducing-role.html).	Intangible	Thing	NA	NA	NA
+RiverBodyOfWater	A river (for example, the broad majestic Shannon).	BodyOfWater	Landform	Place	Thing	NA
+ReviewAction	The act of producing a balanced opinion about the object for an audience. An agent reviews an object with participants resulting in a review.	AssessAction	Action	Thing	NA	NA
+Review	A review of an item - for example, of a restaurant, movie, or store.	CreativeWork	Thing	NA	NA	NA
+ReturnAction	The act of returning to the origin that which was previously received (concrete objects) or taken (ownership).	TransferAction	Action	Thing	NA	NA
+ResumeAction	The act of resuming a device or application which was formerly paused (e.g. resume music playback or resume a timer).	ControlAction	Action	Thing	NA	NA
+RestrictedDiet	A diet restricted to certain foods or preparations for cultural, religious, health or lifestyle reasons.	Enumeration	Intangible	Thing	NA	NA
+Restaurant	A restaurant.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+Restaurant	A restaurant.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+Resort	"A resort is a place used for relaxation or recreation, attracting visitors for holidays or vacations. Resorts are places, towns or sometimes commercial establishment operated by a single company (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Resort"">http://en.wikipedia.org/wiki/Resort</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+Resort	"A resort is a place used for relaxation or recreation, attracting visitors for holidays or vacations. Resorts are places, towns or sometimes commercial establishment operated by a single company (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Resort"">http://en.wikipedia.org/wiki/Resort</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+Residence	The place where a person lives.	Place	Thing	NA	NA	NA
+Reservoir	A reservoir of water, typically an artificially created lake, like the Lake Kariba reservoir.	BodyOfWater	Landform	Place	Thing	NA
+ReserveAction	Reserving a concrete object.\n\nRelated actions:\n\n* [[ScheduleAction]]</a>: Unlike ScheduleAction, ReserveAction reserves concrete objects (e.g. a table, a hotel) towards a time slot / spatial allocation.	PlanAction	OrganizeAction	Action	Thing	NA
+ReservationStatusType	Enumerated status values for Reservation.	Enumeration	Intangible	Thing	NA	NA
+ReservationPackage	A group of multiple reservations with common values for all sub-reservations.	Reservation	Intangible	Thing	NA	NA
+Reservation	Describes a reservation for travel, dining or an event. Some reservations require tickets. \n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, restaurant reservations, flights, or rental cars, use [[Offer]].	Intangible	Thing	NA	NA	NA
+Report	A Report generated by governmental or non-governmental organization.	Article	CreativeWork	Thing	NA	NA
+ReplyAction	The act of responding to a question/message asked/sent by the object. Related to [[AskAction]]\n\nRelated actions:\n\n* [[AskAction]]: Appears generally as an origin of a ReplyAction.	CommunicateAction	InteractAction	Action	Thing	NA
+ReplaceAction	The act of editing a recipient by replacing an old object with a new object.	UpdateAction	Action	Thing	NA	NA
+RentalCarReservation	A reservation for a rental car.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.	Reservation	Intangible	Thing	NA	NA
+RentAction	The act of giving money in return for temporary use, but not ownership, of an object such as a vehicle or property. For example, an agent rents a property from a landlord in exchange for a periodic payment.	TradeAction	Action	Thing	NA	NA
+RejectAction	The act of rejecting to/adopting an object.\n\nRelated actions:\n\n* [[AcceptAction]]: The antonym of RejectAction.	AllocateAction	OrganizeAction	Action	Thing	NA
+RegisterAction	The act of registering to be a user of a service, product or web page.\n\nRelated actions:\n\n* [[JoinAction]]: Unlike JoinAction, RegisterAction implies you are registering to be a user of a service, *not* a group/team of people.\n* [FollowAction]]: Unlike FollowAction, RegisterAction doesn't imply that the agent is expecting to poll for updates from the object.\n* [[SubscribeAction]]: Unlike SubscribeAction, RegisterAction doesn't imply that the agent is expecting updates from the object.	InteractAction	Action	Thing	NA	NA
+RecyclingCenter	A recycling center.	LocalBusiness	Place	Thing	NA	NA
+RecyclingCenter	A recycling center.	LocalBusiness	Organization	Thing	NA	NA
+Recipe	A recipe. For dietary restrictions covered by the recipe, a few common restrictions are enumerated via [[suitableForDiet]]. The [[keywords]] property can also be used to add more detail.	HowTo	CreativeWork	Thing	NA	NA
+ReceiveAction	The act of physically/electronically taking delivery of an object thathas been transferred from an origin to a destination. Reciprocal of SendAction.\n\nRelated actions:\n\n* [[SendAction]]: The reciprocal of ReceiveAction.\n* [[TakeAction]]: Unlike TakeAction, ReceiveAction does not imply that the ownership has been transfered (e.g. I can receive a package, but it does not mean the package is now mine).	TransferAction	Action	Thing	NA	NA
+RealEstateAgent	A real-estate agent.	LocalBusiness	Place	Thing	NA	NA
+RealEstateAgent	A real-estate agent.	LocalBusiness	Organization	Thing	NA	NA
+ReadAction	The act of consuming written content.	ConsumeAction	Action	Thing	NA	NA
+ReactAction	The act of responding instinctively and emotionally to an object, expressing a sentiment.	AssessAction	Action	Thing	NA	NA
+Rating	A rating is an evaluation on a numeric scale, such as 1 to 5 stars.	Intangible	Thing	NA	NA	NA
+RadioStation	A radio station.	LocalBusiness	Place	Thing	NA	NA
+RadioStation	A radio station.	LocalBusiness	Organization	Thing	NA	NA
+RadioSeries	CreativeWorkSeries dedicated to radio broadcast and associated online delivery.	CreativeWorkSeries	Series	Intangible	Thing	NA
+RadioSeries	CreativeWorkSeries dedicated to radio broadcast and associated online delivery.	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+RadioSeason	Season dedicated to radio broadcast and associated online delivery.	CreativeWorkSeason	CreativeWork	Thing	NA	NA
+RadioEpisode	A radio episode which can be part of a series or season.	Episode	CreativeWork	Thing	NA	NA
+RadioClip	A short radio program or a segment/part of a radio program.	Clip	CreativeWork	Thing	NA	NA
+RadioChannel	A unique instance of a radio BroadcastService on a CableOrSatelliteService lineup.	BroadcastChannel	Intangible	Thing	NA	NA
+RVPark	"A place offering space for ""Recreational Vehicles"", Caravans, mobile homes and the like."	CivicStructure	Place	Thing	NA	NA
+QuoteAction	An agent quotes/estimates/appraises an object/product/service with a price at a location/store.	TradeAction	Action	Thing	NA	NA
+Question	A specific question - e.g. from a user seeking answers online, or collected in a Frequently Asked Questions (FAQ) document.	CreativeWork	Thing	NA	NA	NA
+Quantity	Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 Kg' or '4 milligrams'.	Intangible	Thing	NA	NA	NA
+QuantitativeValue	A point value or interval for product characteristics and other purposes.	StructuredValue	Intangible	Thing	NA	NA
+QualitativeValue	A predefined value for a product characteristic, e.g. the power cord plug type 'US' or the garment sizes 'S', 'M', 'L', and 'XL'.	Enumeration	Intangible	Thing	NA	NA
+QAPage	A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs).	WebPage	CreativeWork	Thing	NA	NA
+PublicationVolume	"A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.
+
+      <br/><br/>See also <a href=""http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html"">blog post</a>."	CreativeWork	Thing	NA	NA	NA
+PublicationIssue	A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.\n\n[blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).	CreativeWork	Thing	NA	NA	NA
+PublicationEvent	A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media.	Event	Thing	NA	NA	NA
+PublicSwimmingPool	A public swimming pool.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+PublicSwimmingPool	A public swimming pool.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+PropertyValueSpecification	A Property value specification.	Intangible	Thing	NA	NA	NA
+PropertyValue	"A property-value pair, e.g. representing a feature of a product or place. Use the 'name' property for the name of the property. If there is an additional human-readable version of the value, put that into the 'description' property.\n\n Always use specific schema.org properties when a) they exist and b) you can populate them. Using PropertyValue as a substitute will typically not trigger the same effect as using the original, specific property.
+"	StructuredValue	Intangible	Thing	NA	NA
+ProgramMembership	"Used to describe membership in a loyalty programs (e.g. ""StarAliance""), traveler clubs (e.g. ""AAA""), purchase clubs (""Safeway Club""), etc."	Intangible	Thing	NA	NA	NA
+ProfilePage	Web page type: Profile page.	WebPage	CreativeWork	Thing	NA	NA
+ProfessionalService	"Original definition: ""provider of professional services.""\n\nThe general [[ProfessionalService]] type for local businesses was deprecated due to confusion with [[Service]]. For reference, the types that it included were: [[Dentist]],
+        [[AccountingService]], [[Attorney]], [[Notary]], as well as types for several kinds of [[HomeAndConstructionBusiness]]: [[Electrician]], [[GeneralContractor]],
+        [[HousePainter]], [[Locksmith]], [[Plumber]], [[RoofingContractor]]. [[LegalService]] was introduced as a more inclusive supertype of [[Attorney]]."	LocalBusiness	Place	Thing	NA	NA
+ProfessionalService	"Original definition: ""provider of professional services.""\n\nThe general [[ProfessionalService]] type for local businesses was deprecated due to confusion with [[Service]]. For reference, the types that it included were: [[Dentist]],
+        [[AccountingService]], [[Attorney]], [[Notary]], as well as types for several kinds of [[HomeAndConstructionBusiness]]: [[Electrician]], [[GeneralContractor]],
+        [[HousePainter]], [[Locksmith]], [[Plumber]], [[RoofingContractor]]. [[LegalService]] was introduced as a more inclusive supertype of [[Attorney]]."	LocalBusiness	Organization	Thing	NA	NA
+ProductModel	A datasheet or vendor specification of a product (in the sense of a prototypical description).	Product	Thing	NA	NA	NA
+Product	Any offered product or service. For example: a pair of shoes; a concert ticket; the rental of a car; a haircut; or an episode of a TV show streamed online.	Thing	NA	NA	NA	NA
+PriceSpecification	A structured value representing a price or price range. Typically, only the subclasses of this type are used for markup. It is recommended to use [[MonetaryAmount]] to describe independent amounts of money such as a salary, credit card limits, etc.	StructuredValue	Intangible	Thing	NA	NA
+PresentationDigitalDocument	A file containing slides or used for a presentation.	DigitalDocument	CreativeWork	Thing	NA	NA
+Preschool	A preschool.	EducationalOrganization	Organization	Thing	NA	NA
+PrependAction	The act of inserting at the beginning if an ordered collection.	InsertAction	AddAction	UpdateAction	Action	Thing
+PostalAddress	The mailing address.	ContactPoint	StructuredValue	Intangible	Thing	NA
+PostOffice	A post office.	GovernmentOffice	LocalBusiness	Place	Thing	NA
+PostOffice	A post office.	GovernmentOffice	LocalBusiness	Organization	Thing	NA
+Pond	A pond.	BodyOfWater	Landform	Place	Thing	NA
+PoliceStation	A police station.	EmergencyService	LocalBusiness	Place	Thing	NA
+PoliceStation	A police station.	EmergencyService	LocalBusiness	Organization	Thing	NA
+PoliceStation	A police station.	CivicStructure	Place	Thing	NA	NA
+Plumber	A plumbing service.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+Plumber	A plumbing service.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+Playground	A playground.	CivicStructure	Place	Thing	NA	NA
+PlayAction	The act of playing/exercising/training/performing for enjoyment, leisure, recreation, Competition or exercise.\n\nRelated actions:\n\n* [[ListenAction]]: Unlike ListenAction (which is under ConsumeAction), PlayAction refers to performing for an audience or at an event, rather than consuming music.\n* [[WatchAction]]: Unlike WatchAction (which is under ConsumeAction), PlayAction refers to showing/displaying for an audience or at an event, rather than consuming visual content.	Action	Thing	NA	NA	NA
+PlanAction	The act of planning the execution of an event/task/action/reservation/plan to a future date.	OrganizeAction	Action	Thing	NA	NA
+PlaceOfWorship	Place of worship, such as a church, synagogue, or mosque.	CivicStructure	Place	Thing	NA	NA
+Place	Entities that have a somewhat fixed, physical extension.	Thing	NA	NA	NA	NA
+Physician	A doctor's office.	MedicalOrganization	Organization	Thing	NA	NA
+PhotographAction	The act of capturing still images of objects using a camera.	CreateAction	Action	Thing	NA	NA
+Photograph	A photograph.	CreativeWork	Thing	NA	NA	NA
+Pharmacy	A pharmacy or drugstore.	MedicalOrganization	Organization	Thing	NA	NA
+PetStore	A pet store.	Store	LocalBusiness	Place	Thing	NA
+PetStore	A pet store.	Store	LocalBusiness	Organization	Thing	NA
+Person	A person (alive, dead, undead, or fictional).	Thing	NA	NA	NA	NA
+Permit	A permit issued by an organization, e.g. a parking pass.	Intangible	Thing	NA	NA	NA
+Periodical	A publication in any medium issued in successive parts bearing numerical or chronological designations and intended, such as a magazine, scholarly journal, or newspaper to continue indefinitely.\n\nSee also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).	CreativeWorkSeries	Series	Intangible	Thing	NA
+Periodical	A publication in any medium issued in successive parts bearing numerical or chronological designations and intended, such as a magazine, scholarly journal, or newspaper to continue indefinitely.\n\nSee also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+PerformingGroup	A performance group, such as a band, an orchestra, or a circus.	Organization	Thing	NA	NA	NA
+PerformingArtsTheater	A theater or other performing art center.	CivicStructure	Place	Thing	NA	NA
+PerformanceRole	A PerformanceRole is a Role that some entity places with regard to a theatrical performance, e.g. in a Movie, TVSeries etc.	Role	Intangible	Thing	NA	NA
+PerformAction	The act of participating in performance arts.	PlayAction	Action	Thing	NA	NA
+PeopleAudience	A set of characteristics belonging to people, e.g. who compose an item's target audience.	Audience	Intangible	Thing	NA	NA
+PaymentStatusType	A specific payment status. For example, PaymentDue, PaymentComplete, etc.	Enumeration	Intangible	Thing	NA	NA
+PaymentService	A Service to transfer funds from a person or organization to a beneficiary person or organization.	FinancialProduct	Service	Intangible	Thing	NA
+PaymentMethod	"A payment method is a standardized procedure for transferring the monetary amount for a purchase. Payment methods are characterized by the legal and technical structures used, and by the organization or group carrying out the transaction.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#ByBankTransferInAdvance\n* http://purl.org/goodrelations/v1#ByInvoice\n* http://purl.org/goodrelations/v1#Cash\n* http://purl.org/goodrelations/v1#CheckInAdvance\n* http://purl.org/goodrelations/v1#COD\n* http://purl.org/goodrelations/v1#DirectDebit\n* http://purl.org/goodrelations/v1#GoogleCheckout\n* http://purl.org/goodrelations/v1#PayPal\n* http://purl.org/goodrelations/v1#PaySwarm
+"	Enumeration	Intangible	Thing	NA	NA
+PaymentChargeSpecification	The costs of settling the payment using a particular payment method.	PriceSpecification	StructuredValue	Intangible	Thing	NA
+PaymentCard	A payment method using a credit, debit, store or other card to associate the payment with an account.	PaymentMethod	Enumeration	Intangible	Thing	NA
+PaymentCard	A payment method using a credit, debit, store or other card to associate the payment with an account.	FinancialProduct	Service	Intangible	Thing	NA
+PayAction	An agent pays a price to a participant.	TradeAction	Action	Thing	NA	NA
+PawnShop	A shop that will buy, or lend money against the security of, personal possessions.	Store	LocalBusiness	Place	Thing	NA
+PawnShop	A shop that will buy, or lend money against the security of, personal possessions.	Store	LocalBusiness	Organization	Thing	NA
+ParkingFacility	A parking lot or other parking facility.	CivicStructure	Place	Thing	NA	NA
+Park	A park.	CivicStructure	Place	Thing	NA	NA
+ParentAudience	A set of characteristics describing parents, who can be interested in viewing some content.	PeopleAudience	Audience	Intangible	Thing	NA
+ParcelService	"A private parcel service as the delivery mode available for a certain offer.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS
+"	DeliveryMethod	Enumeration	Intangible	Thing	NA
+ParcelDelivery	The delivery of a parcel either via the postal service or a commercial service.	Intangible	Thing	NA	NA	NA
+Painting	A painting.	CreativeWork	Thing	NA	NA	NA
+PaintAction	The act of producing a painting, typically with paint and canvas as instruments.	CreateAction	Action	Thing	NA	NA
+OwnershipInfo	A structured value providing information about when a certain organization or person owned a certain product.	StructuredValue	Intangible	Thing	NA	NA
+OutletStore	An outlet store.	Store	LocalBusiness	Place	Thing	NA
+OutletStore	An outlet store.	Store	LocalBusiness	Organization	Thing	NA
+OrganizeAction	The act of manipulating/administering/supervising/controlling one or more objects.	Action	Thing	NA	NA	NA
+OrganizationRole	A subclass of Role used to describe roles within organizations.	Role	Intangible	Thing	NA	NA
+Organization	An organization such as a school, NGO, corporation, club, etc.	Thing	NA	NA	NA	NA
+OrderStatus	Enumerated status values for Order.	Enumeration	Intangible	Thing	NA	NA
+OrderItem	An order item is a line of an order. It includes the quantity and shipping details of a bought offer.	Intangible	Thing	NA	NA	NA
+OrderAction	An agent orders an object/product/service to be delivered/sent.	TradeAction	Action	Thing	NA	NA
+Order	An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.	Intangible	Thing	NA	NA	NA
+OpeningHoursSpecification	"A structured value providing information about the opening hours of a place or a certain service inside a place.\n\n
+The place is __open__ if the [[opens]] property is specified, and __closed__ otherwise.\n\nIf the value for the [[closes]] property is less than the value for the [[opens]] property then the hour range is assumed to span over the next day.
+"	StructuredValue	Intangible	Thing	NA	NA
+OnDemandEvent	A publication event e.g. catch-up TV or radio podcast, during which a program is available on-demand.	PublicationEvent	Event	Thing	NA	NA
+OfficeEquipmentStore	An office equipment store.	Store	LocalBusiness	Place	Thing	NA
+OfficeEquipmentStore	An office equipment store.	Store	LocalBusiness	Organization	Thing	NA
+OfferItemCondition	A list of possible conditions for the item.	Enumeration	Intangible	Thing	NA	NA
+OfferCatalog	An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider.	ItemList	Intangible	Thing	NA	NA
+Offer	An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.\n\nFor [GTIN](http://www.gs1.org/barcodes/technical/idkeys/gtin)-related fields, see [Check Digit calculator](http://www.gs1.org/barcodes/support/check_digit_calculator) and [validation guide](http://www.gs1us.org/resources/standards/gtin-validation-guide) from [GS1](http://www.gs1.org/).	Intangible	Thing	NA	NA	NA
+OceanBodyOfWater	An ocean (for example, the Pacific).	BodyOfWater	Landform	Place	Thing	NA
+NutritionInformation	Nutritional information about the recipe.	StructuredValue	Intangible	Thing	NA	NA
+Number	Data type: Number.	NA	NA	NA	NA	NA
+NoteDigitalDocument	A file containing a note, primarily for the author.	DigitalDocument	CreativeWork	Thing	NA	NA
+Notary	A notary.	LegalService	LocalBusiness	Place	Thing	NA
+Notary	A notary.	LegalService	LocalBusiness	Organization	Thing	NA
+NightClub	A nightclub or discotheque.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+NightClub	A nightclub or discotheque.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+NewsArticle	"A NewsArticle is an article whose content reports news, or provides background context and supporting materials for understanding the news.
+
+A more detailed overview of [schema.org News markup](/docs/news.html) is also available.
+"	Article	CreativeWork	Thing	NA	NA
+NailSalon	A nail salon.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+NailSalon	A nail salon.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+NGO	Organization: Non-governmental Organization.	Organization	Thing	NA	NA	NA
+MusicVideoObject	A music video file.	MediaObject	CreativeWork	Thing	NA	NA
+MusicVenue	A music venue.	CivicStructure	Place	Thing	NA	NA
+MusicStore	A music store.	Store	LocalBusiness	Place	Thing	NA
+MusicStore	A music store.	Store	LocalBusiness	Organization	Thing	NA
+MusicReleaseFormatType	Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).	Enumeration	Intangible	Thing	NA	NA
+MusicRelease	A MusicRelease is a specific release of a music album.	MusicPlaylist	CreativeWork	Thing	NA	NA
+MusicRecording	A music recording (track), usually a single song.	CreativeWork	Thing	NA	NA	NA
+MusicPlaylist	A collection of music tracks in playlist form.	CreativeWork	Thing	NA	NA	NA
+MusicGroup	A musical group, such as a band, an orchestra, or a choir. Can also be a solo musician.	PerformingGroup	Organization	Thing	NA	NA
+MusicEvent	Event type: Music event.	Event	Thing	NA	NA	NA
+MusicComposition	A musical composition.	CreativeWork	Thing	NA	NA	NA
+MusicAlbumReleaseType	The kind of release which this album is: single, EP or album.	Enumeration	Intangible	Thing	NA	NA
+MusicAlbumProductionType	Classification of the album by it's type of content: soundtrack, live album, studio album, etc.	Enumeration	Intangible	Thing	NA	NA
+MusicAlbum	A collection of music tracks.	MusicPlaylist	CreativeWork	Thing	NA	NA
+Museum	A museum.	CivicStructure	Place	Thing	NA	NA
+MovingCompany	A moving company.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+MovingCompany	A moving company.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+MovieTheater	A movie theater.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+MovieTheater	A movie theater.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+MovieTheater	A movie theater.	CivicStructure	Place	Thing	NA	NA
+MovieSeries	A series of movies. Included movies can be indicated with the hasPart property.	CreativeWorkSeries	Series	Intangible	Thing	NA
+MovieSeries	A series of movies. Included movies can be indicated with the hasPart property.	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+MovieRentalStore	A movie rental store.	Store	LocalBusiness	Place	Thing	NA
+MovieRentalStore	A movie rental store.	Store	LocalBusiness	Organization	Thing	NA
+MovieClip	A short segment/part of a movie.	Clip	CreativeWork	Thing	NA	NA
+Movie	A movie.	CreativeWork	Thing	NA	NA	NA
+MoveAction	The act of an agent relocating to a place.\n\nRelated actions:\n\n* [[TransferAction]]: Unlike TransferAction, the subject of the move is a living Person or Organization rather than an inanimate object.	Action	Thing	NA	NA	NA
+Mountain	A mountain, like Mount Whitney or Mount Everest.	Landform	Place	Thing	NA	NA
+MotorcycleRepair	A motorcycle repair shop.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+MotorcycleRepair	A motorcycle repair shop.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+MotorcycleDealer	A motorcycle dealer.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+MotorcycleDealer	A motorcycle dealer.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+Motel	"A motel.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+Motel	"A motel.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+Mosque	A mosque.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+MonetaryAmount	A monetary value or range. This type can be used to describe an amount of money such as $50 USD, or a range as in describing a bank account being suitable for a balance between £1,000 and £1,000,000 GBP, or the value of a salary, etc. It is recommended to use [[PriceSpecification]] Types to describe the price of an Offer, Invoice, etc.	StructuredValue	Intangible	Thing	NA	NA
+MobilePhoneStore	A store that sells mobile phones and related accessories.	Store	LocalBusiness	Place	Thing	NA
+MobilePhoneStore	A store that sells mobile phones and related accessories.	Store	LocalBusiness	Organization	Thing	NA
+MobileApplication	A software application designed specifically to work well on a mobile device such as a telephone.	SoftwareApplication	CreativeWork	Thing	NA	NA
+MiddleSchool	A middle school (typically for children aged around 11-14, although this varies somewhat).	EducationalOrganization	Organization	Thing	NA	NA
+Message	A single message from a sender to one or more organizations or people.	CreativeWork	Thing	NA	NA	NA
+MenuSection	A sub-grouping of food or drink items in a menu. E.g. courses (such as 'Dinner', 'Breakfast', etc.), specific type of dishes (such as 'Meat', 'Vegan', 'Drinks', etc.), or some other classification made by the menu provider.	CreativeWork	Thing	NA	NA	NA
+MenuItem	A food or drink item listed in a menu or menu section.	Intangible	Thing	NA	NA	NA
+Menu	A structured representation of food or drink items available from a FoodEstablishment.	CreativeWork	Thing	NA	NA	NA
+MensClothingStore	A men's clothing store.	Store	LocalBusiness	Place	Thing	NA
+MensClothingStore	A men's clothing store.	Store	LocalBusiness	Organization	Thing	NA
+MeetingRoom	"A meeting room, conference room, or conference hall is a room provided for singular events such as business conferences and meetings (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Conference_hall"">http://en.wikipedia.org/wiki/Conference_hall</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Room	Accommodation	Place	Thing	NA
+MedicalOrganization	A medical organization (physical or not), such as hospital, institution or clinic.	Organization	Thing	NA	NA	NA
+MediaObject	A media object, such as an image, video, or audio object embedded in a web page or a downloadable dataset i.e. DataDownload. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject's).	CreativeWork	Thing	NA	NA	NA
+Mass	Properties that take Mass as values are of the form '&lt;Number&gt; &lt;Mass unit of measure&gt;'. E.g., '7 kg'.	Quantity	Intangible	Thing	NA	NA
+MarryAction	The act of marrying a person.	InteractAction	Action	Thing	NA	NA
+MapCategoryType	An enumeration of several kinds of Map.	Enumeration	Intangible	Thing	NA	NA
+Map	A map.	CreativeWork	Thing	NA	NA	NA
+LoseAction	The act of being defeated in a competitive activity.	AchieveAction	Action	Thing	NA	NA
+LodgingReservation	A reservation for lodging at a hotel, motel, inn, etc.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.	Reservation	Intangible	Thing	NA	NA
+LodgingBusiness	A lodging business, such as a motel, hotel, or inn.	LocalBusiness	Place	Thing	NA	NA
+LodgingBusiness	A lodging business, such as a motel, hotel, or inn.	LocalBusiness	Organization	Thing	NA	NA
+Locksmith	A locksmith.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+Locksmith	A locksmith.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+LockerDelivery	A DeliveryMethod in which an item is made available via locker.	DeliveryMethod	Enumeration	Intangible	Thing	NA
+LocationFeatureSpecification	Specifies a location feature by providing a structured value representing a feature of an accommodation as a property-value pair of varying degrees of formality.	PropertyValue	StructuredValue	Intangible	Thing	NA
+LocalBusiness	A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.	Place	Thing	NA	NA	NA
+LocalBusiness	A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.	Organization	Thing	NA	NA	NA
+LoanOrCredit	A financial product for the loaning of an amount of money under agreed terms and charges.	FinancialProduct	Service	Intangible	Thing	NA
+LiveBlogPosting	A blog post intended to provide a rolling textual coverage of an ongoing event through continuous updates.	BlogPosting	SocialMediaPosting	Article	CreativeWork	Thing
+LiteraryEvent	Event type: Literary event.	Event	Thing	NA	NA	NA
+ListenAction	The act of consuming audio content.	ConsumeAction	Action	Thing	NA	NA
+ListItem	An list item, e.g. a step in a checklist or how-to description.	Intangible	Thing	NA	NA	NA
+LiquorStore	A shop that sells alcoholic drinks such as wine, beer, whisky and other spirits.	Store	LocalBusiness	Place	Thing	NA
+LiquorStore	A shop that sells alcoholic drinks such as wine, beer, whisky and other spirits.	Store	LocalBusiness	Organization	Thing	NA
+LikeAction	The act of expressing a positive sentiment about the object. An agent likes an object (a proposition, topic or theme) with participants.	ReactAction	AssessAction	Action	Thing	NA
+Library	A library.	LocalBusiness	Place	Thing	NA	NA
+Library	A library.	LocalBusiness	Organization	Thing	NA	NA
+LendAction	The act of providing an object under an agreement that it will be returned at a later date. Reciprocal of BorrowAction.\n\nRelated actions:\n\n* [[BorrowAction]]: Reciprocal of LendAction.	TransferAction	Action	Thing	NA	NA
+LegislativeBuilding	A legislative building&#x2014;for example, the state capitol.	GovernmentBuilding	CivicStructure	Place	Thing	NA
+LegalService	A LegalService is a business that provides legally-oriented services, advice and representation, e.g. law firms.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).	LocalBusiness	Place	Thing	NA	NA
+LegalService	A LegalService is a business that provides legally-oriented services, advice and representation, e.g. law firms.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).	LocalBusiness	Organization	Thing	NA	NA
+LeaveAction	An agent leaves an event / group with participants/friends at a location.\n\nRelated actions:\n\n* [[JoinAction]]: The antonym of LeaveAction.\n* [[UnRegisterAction]]: Unlike UnRegisterAction, LeaveAction implies leaving a group/team of people rather than a service.	InteractAction	Action	Thing	NA	NA
+Language	Natural languages such as Spanish, Tamil, Hindi, English, etc. Formal language code tags expressed in [BCP 47](https://en.wikipedia.org/wiki/IETF_language_tag) can be used via the [[alternateName]] property. The Language type previously also covered programming languages such as Scheme and Lisp, which are now best represented using [[ComputerLanguage]].	Intangible	Thing	NA	NA	NA
+LandmarksOrHistoricalBuildings	An historical landmark or building.	Place	Thing	NA	NA	NA
+Landform	A landform or physical feature.  Landform elements include mountains, plains, lakes, rivers, seascape and oceanic waterbody interface features such as bays, peninsulas, seas and so forth, including sub-aqueous terrain features such as submersed mountain ranges, volcanoes, and the great ocean basins.	Place	Thing	NA	NA	NA
+LakeBodyOfWater	A lake (for example, Lake Pontrachain).	BodyOfWater	Landform	Place	Thing	NA
+JoinAction	An agent joins an event/group with participants/friends at a location.\n\nRelated actions:\n\n* [[RegisterAction]]: Unlike RegisterAction, JoinAction refers to joining a group/team of people.\n* [[SubscribeAction]]: Unlike SubscribeAction, JoinAction does not imply that you'll be receiving updates.\n* [[FollowAction]]: Unlike FollowAction, JoinAction does not imply that you'll be polling for updates.	InteractAction	Action	Thing	NA	NA
+JobPosting	A listing that describes a job opening in a certain organization.	Intangible	Thing	NA	NA	NA
+JewelryStore	A jewelry store.	Store	LocalBusiness	Place	Thing	NA
+JewelryStore	A jewelry store.	Store	LocalBusiness	Organization	Thing	NA
+ItemPage	A page devoted to a single item, such as a particular product or hotel.	WebPage	CreativeWork	Thing	NA	NA
+ItemListOrderType	Enumerated for values for itemListOrder for indicating how an ordered ItemList is organized.	Enumeration	Intangible	Thing	NA	NA
+ItemList	A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting.	Intangible	Thing	NA	NA	NA
+ItemAvailability	A list of possible product availability options.	Enumeration	Intangible	Thing	NA	NA
+Invoice	A statement of the money due for goods or services; a bill.	Intangible	Thing	NA	NA	NA
+InviteAction	The act of asking someone to attend an event. Reciprocal of RsvpAction.	CommunicateAction	InteractAction	Action	Thing	NA
+InvestmentOrDeposit	A type of financial product that typically requires the client to transfer funds to a financial service in return for potential beneficial financial return.	FinancialProduct	Service	Intangible	Thing	NA
+InternetCafe	An internet cafe.	LocalBusiness	Place	Thing	NA	NA
+InternetCafe	An internet cafe.	LocalBusiness	Organization	Thing	NA	NA
+InteractionCounter	A summary of how users have interacted with this CreativeWork. In most cases, authors will use a subtype to specify the specific type of interaction.	StructuredValue	Intangible	Thing	NA	NA
+InteractAction	The act of interacting with another person or organization.	Action	Thing	NA	NA	NA
+Integer	Data type: Integer.	Number	NA	NA	NA	NA
+Intangible	A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.	Thing	NA	NA	NA	NA
+InsuranceAgency	An Insurance agency.	FinancialService	LocalBusiness	Place	Thing	NA
+InsuranceAgency	An Insurance agency.	FinancialService	LocalBusiness	Organization	Thing	NA
+InstallAction	The act of installing an application.	ConsumeAction	Action	Thing	NA	NA
+InsertAction	The act of adding at a specific location in an ordered collection.	AddAction	UpdateAction	Action	Thing	NA
+InformAction	The act of notifying someone of information pertinent to them, with no expectation of a response.	CommunicateAction	InteractAction	Action	Thing	NA
+IndividualProduct	A single, identifiable product instance (e.g. a laptop with a particular serial number).	Product	Thing	NA	NA	NA
+ImageObject	An image file.	MediaObject	CreativeWork	Thing	NA	NA
+ImageGallery	Web page type: Image gallery page.	CollectionPage	WebPage	CreativeWork	Thing	NA
+IgnoreAction	The act of intentionally disregarding the object. An agent ignores an object.	AssessAction	Action	Thing	NA	NA
+IceCreamShop	An ice cream shop.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+IceCreamShop	An ice cream shop.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+HowToTool	A tool used (but not consumed) when performing instructions for how to achieve a result.	HowToItem	ListItem	Intangible	Thing	NA
+HowToTip	An explanation in the instructions for how to achieve a result. It provides supplementary information about a technique, supply, author's preference, etc. It can explain what could be done, or what should not be done, but doesn't specify what should be done (see HowToDirection).	ListItem	Intangible	Thing	NA	NA
+HowToTip	An explanation in the instructions for how to achieve a result. It provides supplementary information about a technique, supply, author's preference, etc. It can explain what could be done, or what should not be done, but doesn't specify what should be done (see HowToDirection).	CreativeWork	Thing	NA	NA	NA
+HowToSupply	A supply consumed when performing the instructions for how to achieve a result.	HowToItem	ListItem	Intangible	Thing	NA
+HowToStep	A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.	ListItem	Intangible	Thing	NA	NA
+HowToStep	A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.	ItemList	Intangible	Thing	NA	NA
+HowToStep	A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.	CreativeWork	Thing	NA	NA	NA
+HowToSection	A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).	ListItem	Intangible	Thing	NA	NA
+HowToSection	A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).	ItemList	Intangible	Thing	NA	NA
+HowToSection	A sub-grouping of steps in the instructions for how to achieve a result (e.g. steps for making a pie crust within a pie recipe).	CreativeWork	Thing	NA	NA	NA
+HowToItem	An item used as either a tool or supply when performing the instructions for how to to achieve a result.	ListItem	Intangible	Thing	NA	NA
+HowToDirection	A direction indicating a single action to do in the instructions for how to achieve a result.	ListItem	Intangible	Thing	NA	NA
+HowToDirection	A direction indicating a single action to do in the instructions for how to achieve a result.	CreativeWork	Thing	NA	NA	NA
+HowTo	Instructions that explain how to achieve a result by performing a sequence of steps.	CreativeWork	Thing	NA	NA	NA
+HousePainter	A house painting service.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+HousePainter	A house painting service.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+House	"A house is a building or structure that has the ability to be occupied for habitation by humans or other creatures (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/House"">http://en.wikipedia.org/wiki/House</a>)."	Accommodation	Place	Thing	NA	NA
+HotelRoom	"A hotel room is a single room in a hotel.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Room	Accommodation	Place	Thing	NA
+Hotel	"A hotel is an establishment that provides lodging paid on a short-term basis (Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Hotel).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+Hotel	"A hotel is an establishment that provides lodging paid on a short-term basis (Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Hotel).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+Hostel	"A hostel - cheap accommodation, often in shared dormitories.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+Hostel	"A hostel - cheap accommodation, often in shared dormitories.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+Hospital	A hospital.	MedicalOrganization	Organization	Thing	NA	NA
+Hospital	A hospital.	EmergencyService	LocalBusiness	Place	Thing	NA
+Hospital	A hospital.	EmergencyService	LocalBusiness	Organization	Thing	NA
+Hospital	A hospital.	CivicStructure	Place	Thing	NA	NA
+HomeGoodsStore	A home goods store.	Store	LocalBusiness	Place	Thing	NA
+HomeGoodsStore	A home goods store.	Store	LocalBusiness	Organization	Thing	NA
+HomeAndConstructionBusiness	A construction business.\n\nA HomeAndConstructionBusiness is a [[LocalBusiness]] that provides services around homes and buildings.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).	LocalBusiness	Place	Thing	NA	NA
+HomeAndConstructionBusiness	A construction business.\n\nA HomeAndConstructionBusiness is a [[LocalBusiness]] that provides services around homes and buildings.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).	LocalBusiness	Organization	Thing	NA	NA
+HobbyShop	A store that sells materials useful or necessary for various hobbies.	Store	LocalBusiness	Place	Thing	NA
+HobbyShop	A store that sells materials useful or necessary for various hobbies.	Store	LocalBusiness	Organization	Thing	NA
+HinduTemple	A Hindu temple.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+HighSchool	A high school.	EducationalOrganization	Organization	Thing	NA	NA
+HealthClub	A health club.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+HealthClub	A health club.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+HealthClub	A health club.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+HealthClub	A health club.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+HealthAndBeautyBusiness	Health and beauty.	LocalBusiness	Place	Thing	NA	NA
+HealthAndBeautyBusiness	Health and beauty.	LocalBusiness	Organization	Thing	NA	NA
+HardwareStore	A hardware store.	Store	LocalBusiness	Place	Thing	NA
+HardwareStore	A hardware store.	Store	LocalBusiness	Organization	Thing	NA
+HairSalon	A hair salon.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+HairSalon	A hair salon.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+HVACBusiness	A business that provide Heating, Ventilation and Air Conditioning services.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+HVACBusiness	A business that provide Heating, Ventilation and Air Conditioning services.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+GroceryStore	A grocery store.	Store	LocalBusiness	Place	Thing	NA
+GroceryStore	A grocery store.	Store	LocalBusiness	Organization	Thing	NA
+GovernmentService	A service provided by a government organization, e.g. food stamps, veterans benefits, etc.	Service	Intangible	Thing	NA	NA
+GovernmentPermit	A permit issued by a government agency.	Permit	Intangible	Thing	NA	NA
+GovernmentOrganization	A governmental organization or agency.	Organization	Thing	NA	NA	NA
+GovernmentOffice	A government office&#x2014;for example, an IRS or DMV office.	LocalBusiness	Place	Thing	NA	NA
+GovernmentOffice	A government office&#x2014;for example, an IRS or DMV office.	LocalBusiness	Organization	Thing	NA	NA
+GovernmentBuilding	A government building.	CivicStructure	Place	Thing	NA	NA
+GolfCourse	A golf course.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+GolfCourse	A golf course.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+GiveAction	The act of transferring ownership of an object to a destination. Reciprocal of TakeAction.\n\nRelated actions:\n\n* [[TakeAction]]: Reciprocal of GiveAction.\n* [[SendAction]]: Unlike SendAction, GiveAction implies that ownership is being transferred (e.g. I may send my laptop to you, but that doesn't mean I'm giving it to you).	TransferAction	Action	Thing	NA	NA
+GeoShape	The geographic shape of a place. A GeoShape can be described using several properties whose values are based on latitude/longitude pairs. Either whitespace or commas can be used to separate latitude and longitude; whitespace should be used when writing a list of several such points.	StructuredValue	Intangible	Thing	NA	NA
+GeoCoordinates	The geographic coordinates of a place or event.	StructuredValue	Intangible	Thing	NA	NA
+GeoCircle	"A GeoCircle is a GeoShape representing a circular geographic area. As it is a GeoShape
+          it provides the simple textual property 'circle', but also allows the combination of postalCode alongside geoRadius.
+          The center of the circle can be indicated via the 'geoMidpoint' property, or more approximately using 'address', 'postalCode'.
+"	GeoShape	StructuredValue	Intangible	Thing	NA
+GeneralContractor	A general contractor.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+GeneralContractor	A general contractor.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+GenderType	An enumeration of genders.	Enumeration	Intangible	Thing	NA	NA
+GatedResidenceCommunity	Residence type: Gated community.	Residence	Place	Thing	NA	NA
+GasStation	A gas station.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+GasStation	A gas station.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+GardenStore	A garden store.	Store	LocalBusiness	Place	Thing	NA
+GardenStore	A garden store.	Store	LocalBusiness	Organization	Thing	NA
+GameServerStatus	Status of a game server.	Enumeration	Intangible	Thing	NA	NA
+GameServer	Server that provides game interaction in a multiplayer game.	Intangible	Thing	NA	NA	NA
+GamePlayMode	Indicates whether this game is multi-player, co-op or single-player.	Enumeration	Intangible	Thing	NA	NA
+Game	The Game type represents things which are games. These are typically rule-governed recreational activities, e.g. role-playing games in which players assume the role of characters in a fictional setting.	CreativeWork	Thing	NA	NA	NA
+FurnitureStore	A furniture store.	Store	LocalBusiness	Place	Thing	NA
+FurnitureStore	A furniture store.	Store	LocalBusiness	Organization	Thing	NA
+FoodService	A food service, like breakfast, lunch, or dinner.	Service	Intangible	Thing	NA	NA
+FoodEvent	Event type: Food event.	Event	Thing	NA	NA	NA
+FoodEstablishmentReservation	A reservation to dine at a food-related business.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations.	Reservation	Intangible	Thing	NA	NA
+FoodEstablishment	A food-related business.	LocalBusiness	Place	Thing	NA	NA
+FoodEstablishment	A food-related business.	LocalBusiness	Organization	Thing	NA	NA
+FollowAction	The act of forming a personal connection with someone/something (object) unidirectionally/asymmetrically to get updates polled from.\n\nRelated actions:\n\n* [[BefriendAction]]: Unlike BefriendAction, FollowAction implies that the connection is *not* necessarily reciprocal.\n* [[SubscribeAction]]: Unlike SubscribeAction, FollowAction implies that the follower acts as an active agent constantly/actively polling for updates.\n* [[RegisterAction]]: Unlike RegisterAction, FollowAction implies that the agent is interested in continuing receiving updates from the object.\n* [[JoinAction]]: Unlike JoinAction, FollowAction implies that the agent is interested in getting updates from the object.\n* [[TrackAction]]: Unlike TrackAction, FollowAction refers to the polling of updates of all aspects of animate objects rather than the location of inanimate objects (e.g. you track a package, but you don't follow it).	InteractAction	Action	Thing	NA	NA
+Florist	A florist.	Store	LocalBusiness	Place	Thing	NA
+Florist	A florist.	Store	LocalBusiness	Organization	Thing	NA
+Float	Data type: Floating number.	Number	NA	NA	NA	NA
+FlightReservation	A reservation for air travel.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]].	Reservation	Intangible	Thing	NA	NA
+Flight	An airline flight.	Trip	Intangible	Thing	NA	NA
+FireStation	A fire station. With firemen.	EmergencyService	LocalBusiness	Place	Thing	NA
+FireStation	A fire station. With firemen.	EmergencyService	LocalBusiness	Organization	Thing	NA
+FireStation	A fire station. With firemen.	CivicStructure	Place	Thing	NA	NA
+FindAction	The act of finding an object.\n\nRelated actions:\n\n* [[SearchAction]]: FindAction is generally lead by a SearchAction, but not necessarily.	Action	Thing	NA	NA	NA
+FinancialService	Financial services business.	LocalBusiness	Place	Thing	NA	NA
+FinancialService	Financial services business.	LocalBusiness	Organization	Thing	NA	NA
+FinancialProduct	A product provided to consumers and businesses by financial institutions such as banks, insurance companies, brokerage firms, consumer finance companies, and investment companies which comprise the financial services industry.	Service	Intangible	Thing	NA	NA
+FilmAction	The act of capturing sound and moving images on film, video, or digitally.	CreateAction	Action	Thing	NA	NA
+Festival	Event type: Festival.	Event	Thing	NA	NA	NA
+FastFoodRestaurant	A fast-food restaurant.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+FastFoodRestaurant	A fast-food restaurant.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+ExhibitionEvent	Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...	Event	Thing	NA	NA	NA
+ExerciseGym	A gym.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+ExerciseGym	A gym.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+ExerciseAction	The act of participating in exertive activity for the purposes of improving health and fitness.	PlayAction	Action	Thing	NA	NA
+EventVenue	An event venue.	CivicStructure	Place	Thing	NA	NA
+EventStatusType	EventStatusType is an enumeration type whose instances represent several states that an Event may be in.	Enumeration	Intangible	Thing	NA	NA
+EventReservation	A reservation for an event like a concert, sporting event, or lecture.\n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]].	Reservation	Intangible	Thing	NA	NA
+Event	An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the [[offers]] property. Repeated events may be structured as separate Event objects.	Thing	NA	NA	NA	NA
+Episode	A media episode (e.g. TV, radio, video game) which can be part of a series or season.	CreativeWork	Thing	NA	NA	NA
+Enumeration	Lists or enumerations—for example, a list of cuisines or music genres, etc.	Intangible	Thing	NA	NA	NA
+EntryPoint	An entry point, within some Web-based protocol.	Intangible	Thing	NA	NA	NA
+EntertainmentBusiness	A business providing entertainment.	LocalBusiness	Place	Thing	NA	NA
+EntertainmentBusiness	A business providing entertainment.	LocalBusiness	Organization	Thing	NA	NA
+EngineSpecification	Information about the engine of the vehicle. A vehicle can have multiple engines represented by multiple engine specification entities.	StructuredValue	Intangible	Thing	NA	NA
+Energy	Properties that take Energy as values are of the form '&lt;Number&gt; &lt;Energy unit of measure&gt;'.	Quantity	Intangible	Thing	NA	NA
+EndorseAction	An agent approves/certifies/likes/supports/sanction an object.	ReactAction	AssessAction	Action	Thing	NA
+EmploymentAgency	An employment agency.	LocalBusiness	Place	Thing	NA	NA
+EmploymentAgency	An employment agency.	LocalBusiness	Organization	Thing	NA	NA
+EmployeeRole	A subclass of OrganizationRole used to describe employee relationships.	OrganizationRole	Role	Intangible	Thing	NA
+EmergencyService	An emergency service, such as a fire station or ER.	LocalBusiness	Place	Thing	NA	NA
+EmergencyService	An emergency service, such as a fire station or ER.	LocalBusiness	Organization	Thing	NA	NA
+Embassy	An embassy.	GovernmentBuilding	CivicStructure	Place	Thing	NA
+EmailMessage	An email message.	Message	CreativeWork	Thing	NA	NA
+ElementarySchool	An elementary school.	EducationalOrganization	Organization	Thing	NA	NA
+ElectronicsStore	An electronics store.	Store	LocalBusiness	Place	Thing	NA
+ElectronicsStore	An electronics store.	Store	LocalBusiness	Organization	Thing	NA
+Electrician	An electrician.	HomeAndConstructionBusiness	LocalBusiness	Place	Thing	NA
+Electrician	An electrician.	HomeAndConstructionBusiness	LocalBusiness	Organization	Thing	NA
+EducationalOrganization	An educational organization.	Organization	Thing	NA	NA	NA
+EducationalAudience	An EducationalAudience.	Audience	Intangible	Thing	NA	NA
+EducationEvent	Event type: Education event.	Event	Thing	NA	NA	NA
+EatAction	The act of swallowing solid objects.	ConsumeAction	Action	Thing	NA	NA
+Duration	Quantity: Duration (use [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601)).	Quantity	Intangible	Thing	NA	NA
+DryCleaningOrLaundry	A dry-cleaning business.	LocalBusiness	Place	Thing	NA	NA
+DryCleaningOrLaundry	A dry-cleaning business.	LocalBusiness	Organization	Thing	NA	NA
+DriveWheelConfigurationValue	A value indicating which roadwheels will receive torque.	QualitativeValue	Enumeration	Intangible	Thing	NA
+DrinkAction	The act of swallowing liquids.	ConsumeAction	Action	Thing	NA	NA
+DrawAction	The act of producing a visual/graphical representation of an object, typically with a pen/pencil and paper as instruments.	CreateAction	Action	Thing	NA	NA
+DownloadAction	The act of downloading an object.	TransferAction	Action	Thing	NA	NA
+DonateAction	The act of providing goods, services, or money without compensation, often for philanthropic reasons.	TradeAction	Action	Thing	NA	NA
+Distance	Properties that take Distances as values are of the form '&lt;Number&gt; &lt;Length unit of measure&gt;'. E.g., '7 ft'.	Quantity	Intangible	Thing	NA	NA
+DislikeAction	The act of expressing a negative sentiment about the object. An agent dislikes an object (a proposition, topic or theme) with participants.	ReactAction	AssessAction	Action	Thing	NA
+DiscussionForumPosting	A posting to a discussion forum.	SocialMediaPosting	Article	CreativeWork	Thing	NA
+DiscoverAction	The act of discovering/finding an object.	FindAction	Action	Thing	NA	NA
+DisagreeAction	The act of expressing a difference of opinion with the object. An agent disagrees to/about an object (a proposition, topic or theme) with participants.	ReactAction	AssessAction	Action	Thing	NA
+DigitalDocumentPermissionType	A type of permission which can be granted for accessing a digital document.	Enumeration	Intangible	Thing	NA	NA
+DigitalDocumentPermission	A permission for a particular person or group to access a particular file.	Intangible	Thing	NA	NA	NA
+DigitalDocument	An electronic file or document.	CreativeWork	Thing	NA	NA	NA
+DepositAccount	A type of Bank Account with a main purpose of depositing funds to gain interest or other benefits.	InvestmentOrDeposit	FinancialProduct	Service	Intangible	Thing
+DepositAccount	A type of Bank Account with a main purpose of depositing funds to gain interest or other benefits.	BankAccount	FinancialProduct	Service	Intangible	Thing
+DepartmentStore	A department store.	Store	LocalBusiness	Place	Thing	NA
+DepartmentStore	A department store.	Store	LocalBusiness	Organization	Thing	NA
+DepartAction	The act of  departing from a place. An agent departs from an fromLocation for a destination, optionally with participants.	MoveAction	Action	Thing	NA	NA
+Dentist	A dentist.	MedicalOrganization	Organization	Thing	NA	NA
+Dentist	A dentist.	LocalBusiness	Place	Thing	NA	NA
+Dentist	A dentist.	LocalBusiness	Organization	Thing	NA	NA
+Demand	A demand entity represents the public, not necessarily binding, not necessarily exclusive, announcement by an organization or person to seek a certain type of goods or services. For describing demand using this type, the very same properties used for Offer apply.	Intangible	Thing	NA	NA	NA
+DeliveryMethod	"A delivery method is a standardized procedure for transferring the product or service to the destination of fulfillment chosen by the customer. Delivery methods are characterized by the means of transportation used, and by the organization or group that is the contracting party for the sending organization or person.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#DeliveryModeDirectDownload\n* http://purl.org/goodrelations/v1#DeliveryModeFreight\n* http://purl.org/goodrelations/v1#DeliveryModeMail\n* http://purl.org/goodrelations/v1#DeliveryModeOwnFleet\n* http://purl.org/goodrelations/v1#DeliveryModePickUp\n* http://purl.org/goodrelations/v1#DHL\n* http://purl.org/goodrelations/v1#FederalExpress\n* http://purl.org/goodrelations/v1#UPS
+"	Enumeration	Intangible	Thing	NA	NA
+DeliveryEvent	An event involving the delivery of an item.	Event	Thing	NA	NA	NA
+DeliveryChargeSpecification	The price for the delivery of an offer using a particular delivery method.	PriceSpecification	StructuredValue	Intangible	Thing	NA
+DeleteAction	The act of editing a recipient by removing one of its objects.	UpdateAction	Action	Thing	NA	NA
+DefenceEstablishment	A defence establishment, such as an army or navy base.	GovernmentBuilding	CivicStructure	Place	Thing	NA
+DeactivateAction	The act of stopping or deactivating a device or application (e.g. stopping a timer or turning off a flashlight).	ControlAction	Action	Thing	NA	NA
+DaySpa	A day spa.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+DaySpa	A day spa.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+DayOfWeek	"The day of the week, e.g. used to specify to which day the opening hours of an OpeningHoursSpecification refer.
+
+Originally, URLs from [GoodRelations](http://purl.org/goodrelations/v1) were used (for [[Monday]], [[Tuesday]], [[Wednesday]], [[Thursday]], [[Friday]], [[Saturday]], [[Sunday]] plus a special entry for [[PublicHolidays]]); these have now been integrated directly into schema.org.
+"	Enumeration	Intangible	Thing	NA	NA
+DatedMoneySpecification	A DatedMoneySpecification represents monetary values with optional start and end dates. For example, this could represent an employee's salary over a specific period of time. __Note:__ This type has been superseded by [[MonetaryAmount]] use of that type is recommended	StructuredValue	Intangible	Thing	NA	NA
+DateTime	A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601).	NA	NA	NA	NA	NA
+Date	A date value in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601).	NA	NA	NA	NA	NA
+Dataset	A body of structured information describing some topic(s) of interest.	CreativeWork	Thing	NA	NA	NA
+DataType	The basic data types such as Integers, Strings, etc.	NA	NA	NA	NA	NA
+DataFeedItem	A single item within a larger data feed.	Intangible	Thing	NA	NA	NA
+DataFeed	A single feed providing structured information about one or more entities or topics.	Dataset	CreativeWork	Thing	NA	NA
+DataDownload	A dataset in downloadable form.	MediaObject	CreativeWork	Thing	NA	NA
+DataCatalog	A collection of datasets.	CreativeWork	Thing	NA	NA	NA
+DanceGroup	A dance group&#x2014;for example, the Alvin Ailey Dance Theater or Riverdance.	PerformingGroup	Organization	Thing	NA	NA
+DanceEvent	Event type: A social dance.	Event	Thing	NA	NA	NA
+CurrencyConversionService	A service to convert funds from one currency to another currency.	FinancialProduct	Service	Intangible	Thing	NA
+Crematorium	A crematorium.	CivicStructure	Place	Thing	NA	NA
+CreditCard	"A card payment method of a particular brand or name.  Used to mark up a particular payment method and/or the financial product/service that supplies the card account.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#AmericanExpress\n* http://purl.org/goodrelations/v1#DinersClub\n* http://purl.org/goodrelations/v1#Discover\n* http://purl.org/goodrelations/v1#JCB\n* http://purl.org/goodrelations/v1#MasterCard\n* http://purl.org/goodrelations/v1#VISA
+"	PaymentCard	PaymentMethod	Enumeration	Intangible	Thing
+CreditCard	"A card payment method of a particular brand or name.  Used to mark up a particular payment method and/or the financial product/service that supplies the card account.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#AmericanExpress\n* http://purl.org/goodrelations/v1#DinersClub\n* http://purl.org/goodrelations/v1#Discover\n* http://purl.org/goodrelations/v1#JCB\n* http://purl.org/goodrelations/v1#MasterCard\n* http://purl.org/goodrelations/v1#VISA
+"	PaymentCard	FinancialProduct	Service	Intangible	Thing
+CreditCard	"A card payment method of a particular brand or name.  Used to mark up a particular payment method and/or the financial product/service that supplies the card account.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#AmericanExpress\n* http://purl.org/goodrelations/v1#DinersClub\n* http://purl.org/goodrelations/v1#Discover\n* http://purl.org/goodrelations/v1#JCB\n* http://purl.org/goodrelations/v1#MasterCard\n* http://purl.org/goodrelations/v1#VISA
+"	LoanOrCredit	FinancialProduct	Service	Intangible	Thing
+CreativeWorkSeries	"A CreativeWorkSeries in schema.org is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are usually organized into some order, often chronological. Unlike [[ItemList]] which is a general purpose data structure for lists of things, the emphasis with CreativeWorkSeries is on published materials (written e.g. books and periodicals, or media such as tv, radio and games).\n\nSpecific subtypes are available for describing [[TVSeries]], [[RadioSeries]], [[MovieSeries]], [[BookSeries]], [[Periodical]] and [[VideoGameSeries]]. In each case, the [[hasPart]] / [[isPartOf]] properties can be used to relate the CreativeWorkSeries to its parts. The general CreativeWorkSeries type serves largely just to organize these more specific and practical subtypes.\n\nIt is common for properties applicable to an item from the series to be usefully applied to the containing group. Schema.org attempts to anticipate some of these cases, but publishers should be free to apply properties of the series parts to the series as a whole wherever they seem appropriate.
+	"	Series	Intangible	Thing	NA	NA
+CreativeWorkSeries	"A CreativeWorkSeries in schema.org is a group of related items, typically but not necessarily of the same kind. CreativeWorkSeries are usually organized into some order, often chronological. Unlike [[ItemList]] which is a general purpose data structure for lists of things, the emphasis with CreativeWorkSeries is on published materials (written e.g. books and periodicals, or media such as tv, radio and games).\n\nSpecific subtypes are available for describing [[TVSeries]], [[RadioSeries]], [[MovieSeries]], [[BookSeries]], [[Periodical]] and [[VideoGameSeries]]. In each case, the [[hasPart]] / [[isPartOf]] properties can be used to relate the CreativeWorkSeries to its parts. The general CreativeWorkSeries type serves largely just to organize these more specific and practical subtypes.\n\nIt is common for properties applicable to an item from the series to be usefully applied to the containing group. Schema.org attempts to anticipate some of these cases, but publishers should be free to apply properties of the series parts to the series as a whole wherever they seem appropriate.
+	"	CreativeWork	Thing	NA	NA	NA
+CreativeWorkSeason	A media season e.g. tv, radio, video game etc.	CreativeWork	Thing	NA	NA	NA
+CreativeWork	The most generic kind of creative work, including books, movies, photographs, software programs, etc.	Thing	NA	NA	NA	NA
+CreateAction	The act of deliberately creating/producing/generating/building a result out of the agent.	Action	Thing	NA	NA	NA
+Courthouse	A courthouse.	GovernmentBuilding	CivicStructure	Place	Thing	NA
+CourseInstance	An instance of a [[Course]] which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students.	Event	Thing	NA	NA	NA
+Course	A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners.	CreativeWork	Thing	NA	NA	NA
+Country	A country.	AdministrativeArea	Place	Thing	NA	NA
+Corporation	Organization: A business corporation.	Organization	Thing	NA	NA	NA
+CookAction	The act of producing/preparing food.	CreateAction	Action	Thing	NA	NA
+Conversation	One or more messages between organizations or people on a particular topic. Individual messages can be linked to the conversation with isPartOf or hasPart properties.	CreativeWork	Thing	NA	NA	NA
+ConvenienceStore	A convenience store.	Store	LocalBusiness	Place	Thing	NA
+ConvenienceStore	A convenience store.	Store	LocalBusiness	Organization	Thing	NA
+ControlAction	An agent controls a device or application.	Action	Thing	NA	NA	NA
+Continent	One of the continents (for example, Europe or Africa).	Landform	Place	Thing	NA	NA
+ContactPointOption	Enumerated options related to a ContactPoint.	Enumeration	Intangible	Thing	NA	NA
+ContactPoint	A contact point&#x2014;for example, a Customer Complaints department.	StructuredValue	Intangible	Thing	NA	NA
+ContactPage	Web page type: Contact page.	WebPage	CreativeWork	Thing	NA	NA
+ConsumeAction	The act of ingesting information/resources/food.	Action	Thing	NA	NA	NA
+ConfirmAction	The act of notifying someone that a future event/action is going to happen as expected.\n\nRelated actions:\n\n* [[CancelAction]]: The antonym of ConfirmAction.	InformAction	CommunicateAction	InteractAction	Action	Thing
+ComputerStore	A computer store.	Store	LocalBusiness	Place	Thing	NA
+ComputerStore	A computer store.	Store	LocalBusiness	Organization	Thing	NA
+ComputerLanguage	This type covers computer programming languages such as Scheme and Lisp, as well as other language-like computer representations. Natural languages are best represented with the [[Language]] type.	Intangible	Thing	NA	NA	NA
+CompoundPriceSpecification	"A compound price specification is one that bundles multiple prices that all apply in combination for different dimensions of consumption. Use the name property of the attached unit price specification for indicating the dimension of a price component (e.g. ""electricity"" or ""final cleaning"")."	PriceSpecification	StructuredValue	Intangible	Thing	NA
+CommunicateAction	The act of conveying information to another person via a communication medium (instrument) such as speech, email, or telephone conversation.	InteractAction	Action	Thing	NA	NA
+CommentAction	The act of generating a comment about a subject.	CommunicateAction	InteractAction	Action	Thing	NA
+Comment	A comment on an item - for example, a comment on a blog post. The comment's content is expressed via the [[text]] property, and its topic via [[about]], properties shared with all CreativeWorks.	CreativeWork	Thing	NA	NA	NA
+ComedyEvent	Event type: Comedy event.	Event	Thing	NA	NA	NA
+ComedyClub	A comedy club.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+ComedyClub	A comedy club.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+CollegeOrUniversity	A college, university, or other third-level educational institution.	EducationalOrganization	Organization	Thing	NA	NA
+CollectionPage	Web page type: Collection page.	WebPage	CreativeWork	Thing	NA	NA
+Code	Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.	CreativeWork	Thing	NA	NA	NA
+ClothingStore	A clothing store.	Store	LocalBusiness	Place	Thing	NA
+ClothingStore	A clothing store.	Store	LocalBusiness	Organization	Thing	NA
+Clip	A short TV or radio program or a segment/part of a program.	CreativeWork	Thing	NA	NA	NA
+ClaimReview	A fact-checking review of claims made (or reported) in some creative work (referenced via itemReviewed).	Review	CreativeWork	Thing	NA	NA
+CivicStructure	A public structure, such as a town hall or concert hall.	Place	Thing	NA	NA	NA
+CityHall	A city hall.	GovernmentBuilding	CivicStructure	Place	Thing	NA
+City	A city or town.	AdministrativeArea	Place	Thing	NA	NA
+Church	A church.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+ChooseAction	The act of expressing a preference from a set of options or a large or unbounded set of choices/options.	AssessAction	Action	Thing	NA	NA
+ChildrensEvent	Event type: Children's event.	Event	Thing	NA	NA	NA
+ChildCare	A Childcare center.	LocalBusiness	Place	Thing	NA	NA
+ChildCare	A Childcare center.	LocalBusiness	Organization	Thing	NA	NA
+CheckoutPage	Web page type: Checkout page.	WebPage	CreativeWork	Thing	NA	NA
+CheckOutAction	The act of an agent communicating (service provider, social media, etc) their departure of a previously reserved service (e.g. flight check in) or place (e.g. hotel).\n\nRelated actions:\n\n* [[CheckInAction]]: The antonym of CheckOutAction.\n* [[DepartAction]]: Unlike DepartAction, CheckOutAction implies that the agent is informing/confirming the end of a previously reserved service.\n* [[CancelAction]]: Unlike CancelAction, CheckOutAction implies that the agent is informing/confirming the end of a previously reserved service.	CommunicateAction	InteractAction	Action	Thing	NA
+CheckInAction	The act of an agent communicating (service provider, social media, etc) their arrival by registering/confirming for a previously reserved service (e.g. flight check in) or at a place (e.g. hotel), possibly resulting in a result (boarding pass, etc).\n\nRelated actions:\n\n* [[CheckOutAction]]: The antonym of CheckInAction.\n* [[ArriveAction]]: Unlike ArriveAction, CheckInAction implies that the agent is informing/confirming the start of a previously reserved service.\n* [[ConfirmAction]]: Unlike ConfirmAction, CheckInAction implies that the agent is informing/confirming the *start* of a previously reserved service rather than its validity/existence.	CommunicateAction	InteractAction	Action	Thing	NA
+CheckAction	An agent inspects, determines, investigates, inquires, or examines an object's accuracy, quality, condition, or state.	FindAction	Action	Thing	NA	NA
+Cemetery	A graveyard.	CivicStructure	Place	Thing	NA	NA
+CatholicChurch	A Catholic church.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+Casino	A casino.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+Casino	A casino.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+Car	A car is a wheeled, self-powered motor vehicle used for transportation.	Vehicle	Product	Thing	NA	NA
+CancelAction	The act of asserting that a future event/action is no longer going to happen.\n\nRelated actions:\n\n* [[ConfirmAction]]: The antonym of CancelAction.	PlanAction	OrganizeAction	Action	Thing	NA
+Canal	A canal, like the Panama Canal.	BodyOfWater	Landform	Place	Thing	NA
+CampingPitch	"A camping pitch is an individual place for overnight stay in the outdoors, typically being part of a larger camping site.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Accommodation	Place	Thing	NA	NA
+Campground	"A camping site, campsite, or campground is a place used for overnight stay in the outdoors. In British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or parks a camper; a campground may contain many campsites (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Campsite"">http://en.wikipedia.org/wiki/Campsite</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+Campground	"A camping site, campsite, or campground is a place used for overnight stay in the outdoors. In British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or parks a camper; a campground may contain many campsites (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Campsite"">http://en.wikipedia.org/wiki/Campsite</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+Campground	"A camping site, campsite, or campground is a place used for overnight stay in the outdoors. In British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or parks a camper; a campground may contain many campsites (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Campsite"">http://en.wikipedia.org/wiki/Campsite</a>).
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	CivicStructure	Place	Thing	NA	NA
+CafeOrCoffeeShop	A cafe or coffee shop.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+CafeOrCoffeeShop	A cafe or coffee shop.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+CableOrSatelliteService	A service which provides access to media programming like TV or radio. Access may be via cable or satellite.	Service	Intangible	Thing	NA	NA
+BuyAction	The act of giving money to a seller in exchange for goods or services rendered. An agent buys an object, product, or service from a seller for a price. Reciprocal of SellAction.	TradeAction	Action	Thing	NA	NA
+BusinessFunction	"The business function specifies the type of activity or access (i.e., the bundle of rights) offered by the organization or business person through the offer. Typical are sell, rental or lease, maintenance or repair, manufacture / produce, recycle / dispose, engineering / construction, or installation. Proprietary specifications of access rights are also instances of this class.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#ConstructionInstallation\n* http://purl.org/goodrelations/v1#Dispose\n* http://purl.org/goodrelations/v1#LeaseOut\n* http://purl.org/goodrelations/v1#Maintain\n* http://purl.org/goodrelations/v1#ProvideService\n* http://purl.org/goodrelations/v1#Repair\n* http://purl.org/goodrelations/v1#Sell\n* http://purl.org/goodrelations/v1#Buy
+"	Enumeration	Intangible	Thing	NA	NA
+BusinessEvent	Event type: Business event.	Event	Thing	NA	NA	NA
+BusinessEntityType	"A business entity type is a conceptual entity representing the legal form, the size, the main line of business, the position in the value chain, or any combination thereof, of an organization or business person.\n\nCommonly used values:\n\n* http://purl.org/goodrelations/v1#Business\n* http://purl.org/goodrelations/v1#Enduser\n* http://purl.org/goodrelations/v1#PublicInstitution\n* http://purl.org/goodrelations/v1#Reseller
+	"	Enumeration	Intangible	Thing	NA	NA
+BusinessAudience	A set of characteristics belonging to businesses, e.g. who compose an item's target audience.	Audience	Intangible	Thing	NA	NA
+BusTrip	A trip on a commercial bus line.	Trip	Intangible	Thing	NA	NA
+BusStop	A bus stop.	CivicStructure	Place	Thing	NA	NA
+BusStation	A bus station.	CivicStructure	Place	Thing	NA	NA
+BusReservation	A reservation for bus travel. \n\nNote: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use [[Offer]].	Reservation	Intangible	Thing	NA	NA
+BuddhistTemple	A Buddhist temple.	PlaceOfWorship	CivicStructure	Place	Thing	NA
+BroadcastService	A delivery service through which content is provided via broadcast over the air or online.	Service	Intangible	Thing	NA	NA
+BroadcastEvent	An over the air or online broadcast event.	PublicationEvent	Event	Thing	NA	NA
+BroadcastChannel	A unique instance of a BroadcastService on a CableOrSatelliteService lineup.	Intangible	Thing	NA	NA	NA
+Bridge	A bridge.	CivicStructure	Place	Thing	NA	NA
+Brewery	Brewery.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+Brewery	Brewery.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+BreadcrumbList	"A BreadcrumbList is an ItemList consisting of a chain of linked Web pages, typically described using at least their URL and their name, and typically ending with the current page.\n\nThe [[position]] property is used to reconstruct the order of the items in a BreadcrumbList The convention is that a breadcrumb list has an [[itemListOrder]] of [[ItemListOrderAscending]] (lower values listed first), and that the first items in this list correspond to the ""top"" or beginning of the breadcrumb trail, e.g. with a site or section homepage. The specific values of 'position' are not assigned meaning for a BreadcrumbList, but they should be integers, e.g. beginning with '1' for the first item in the list.
+"	ItemList	Intangible	Thing	NA	NA
+Brand	A brand is a name used by an organization or business person for labeling a product, product group, or similar.	Intangible	Thing	NA	NA	NA
+BowlingAlley	A bowling alley.	SportsActivityLocation	LocalBusiness	Place	Thing	NA
+BowlingAlley	A bowling alley.	SportsActivityLocation	LocalBusiness	Organization	Thing	NA
+BorrowAction	The act of obtaining an object under an agreement to return it at a later date. Reciprocal of LendAction.\n\nRelated actions:\n\n* [[LendAction]]: Reciprocal of BorrowAction.	TransferAction	Action	Thing	NA	NA
+Boolean	Boolean: True or False.	NA	NA	NA	NA	NA
+BookmarkAction	An agent bookmarks/flags/labels/tags/marks an object.	OrganizeAction	Action	Thing	NA	NA
+BookStore	A bookstore.	Store	LocalBusiness	Place	Thing	NA
+BookStore	A bookstore.	Store	LocalBusiness	Organization	Thing	NA
+BookSeries	A series of books. Included books can be indicated with the hasPart property.	CreativeWorkSeries	Series	Intangible	Thing	NA
+BookSeries	A series of books. Included books can be indicated with the hasPart property.	CreativeWorkSeries	CreativeWork	Thing	NA	NA
+BookFormatType	The publication format of the book.	Enumeration	Intangible	Thing	NA	NA
+Book	A book.	CreativeWork	Thing	NA	NA	NA
+BodyOfWater	A body of water, such as a sea, ocean, or lake.	Landform	Place	Thing	NA	NA
+BoardingPolicyType	A type of boarding policy used by an airline.	Enumeration	Intangible	Thing	NA	NA
+BlogPosting	A blog post.	SocialMediaPosting	Article	CreativeWork	Thing	NA
+Blog	A blog.	CreativeWork	Thing	NA	NA	NA
+BikeStore	A bike store.	Store	LocalBusiness	Place	Thing	NA
+BikeStore	A bike store.	Store	LocalBusiness	Organization	Thing	NA
+BefriendAction	The act of forming a personal connection with someone (object) mutually/bidirectionally/symmetrically.\n\nRelated actions:\n\n* [[FollowAction]]: Unlike FollowAction, BefriendAction implies that the connection is reciprocal.	InteractAction	Action	Thing	NA	NA
+BedDetails	An entity holding detailed information about the available bed types, e.g. the quantity of twin beds for a hotel room. For the single case of just one bed of a certain type, you can use bed directly with a text. See also [[BedType]] (under development).	Intangible	Thing	NA	NA	NA
+BedAndBreakfast	"Bed and breakfast.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Place	Thing	NA
+BedAndBreakfast	"Bed and breakfast.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	LodgingBusiness	LocalBusiness	Organization	Thing	NA
+BeautySalon	Beauty salon.	HealthAndBeautyBusiness	LocalBusiness	Place	Thing	NA
+BeautySalon	Beauty salon.	HealthAndBeautyBusiness	LocalBusiness	Organization	Thing	NA
+Beach	Beach.	CivicStructure	Place	Thing	NA	NA
+Barcode	An image of a visual machine-readable code such as a barcode or QR code.	ImageObject	MediaObject	CreativeWork	Thing	NA
+BarOrPub	A bar or pub.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+BarOrPub	A bar or pub.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+BankOrCreditUnion	Bank or credit union.	FinancialService	LocalBusiness	Place	Thing	NA
+BankOrCreditUnion	Bank or credit union.	FinancialService	LocalBusiness	Organization	Thing	NA
+BankAccount	A product or service offered by a bank whereby one may deposit, withdraw or transfer money and in some cases be paid interest.	FinancialProduct	Service	Intangible	Thing	NA
+Bakery	A bakery.	FoodEstablishment	LocalBusiness	Place	Thing	NA
+Bakery	A bakery.	FoodEstablishment	LocalBusiness	Organization	Thing	NA
+AutomotiveBusiness	Car repair, sales, or parts.	LocalBusiness	Place	Thing	NA	NA
+AutomotiveBusiness	Car repair, sales, or parts.	LocalBusiness	Organization	Thing	NA	NA
+AutomatedTeller	ATM/cash machine.	FinancialService	LocalBusiness	Place	Thing	NA
+AutomatedTeller	ATM/cash machine.	FinancialService	LocalBusiness	Organization	Thing	NA
+AutoWash	A car wash business.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoWash	A car wash business.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AutoRepair	Car repair business.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoRepair	Car repair business.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AutoRental	A car rental business.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoRental	A car rental business.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AutoPartsStore	An auto parts store.	Store	LocalBusiness	Place	Thing	NA
+AutoPartsStore	An auto parts store.	Store	LocalBusiness	Organization	Thing	NA
+AutoPartsStore	An auto parts store.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoPartsStore	An auto parts store.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AutoDealer	An car dealership.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoDealer	An car dealership.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AutoBodyShop	Auto body shop.	AutomotiveBusiness	LocalBusiness	Place	Thing	NA
+AutoBodyShop	Auto body shop.	AutomotiveBusiness	LocalBusiness	Organization	Thing	NA
+AuthorizeAction	The act of granting permission to an object.	AllocateAction	OrganizeAction	Action	Thing	NA
+AudioObject	An audio file.	MediaObject	CreativeWork	Thing	NA	NA
+Audience	Intended audience for an item, i.e. the group for whom the item was created.	Intangible	Thing	NA	NA	NA
+Attorney	Professional service: Attorney. \n\nThis type is deprecated - [[LegalService]] is more inclusive and less ambiguous.	LegalService	LocalBusiness	Place	Thing	NA
+Attorney	Professional service: Attorney. \n\nThis type is deprecated - [[LegalService]] is more inclusive and less ambiguous.	LegalService	LocalBusiness	Organization	Thing	NA
+AssignAction	The act of allocating an action/event/task to some destination (someone or something).	AllocateAction	OrganizeAction	Action	Thing	NA
+AssessAction	The act of forming one's opinion, reaction or sentiment.	Action	Thing	NA	NA	NA
+AskAction	The act of posing a question / favor to someone.\n\nRelated actions:\n\n* [[ReplyAction]]: Appears generally as a response to AskAction.	CommunicateAction	InteractAction	Action	Thing	NA
+Article	An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all.\n\nSee also [blog post](http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html).	CreativeWork	Thing	NA	NA	NA
+ArtGallery	An art gallery.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+ArtGallery	An art gallery.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+ArriveAction	The act of arriving at a place. An agent arrives at a destination from a fromLocation, optionally with participants.	MoveAction	Action	Thing	NA	NA
+Aquarium	Aquarium.	CivicStructure	Place	Thing	NA	NA
+ApplyAction	The act of registering to an organization/service without the guarantee to receive it.\n\nRelated actions:\n\n* [[RegisterAction]]: Unlike RegisterAction, ApplyAction has no guarantees that the application will be accepted.	OrganizeAction	Action	Thing	NA	NA
+AppendAction	The act of inserting at the end if an ordered collection.	InsertAction	AddAction	UpdateAction	Action	Thing
+ApartmentComplex	Residence type: Apartment complex.	Residence	Place	Thing	NA	NA
+Apartment	"An apartment (in American English) or flat (in British English) is a self-contained housing unit (a type of residential real estate) that occupies only part of a building (Source: Wikipedia, the free encyclopedia, see <a href=""http://en.wikipedia.org/wiki/Apartment"">http://en.wikipedia.org/wiki/Apartment</a>)."	Accommodation	Place	Thing	NA	NA
+Answer	An answer offered to a question; perhaps correct, perhaps opinionated or wrong.	Comment	CreativeWork	Thing	NA	NA
+AnimalShelter	Animal shelter.	LocalBusiness	Place	Thing	NA	NA
+AnimalShelter	Animal shelter.	LocalBusiness	Organization	Thing	NA	NA
+AmusementPark	An amusement park.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+AmusementPark	An amusement park.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+AllocateAction	The act of organizing tasks/objects/events by associating resources to it.	OrganizeAction	Action	Thing	NA	NA
+AlignmentObject	An intangible item that describes an alignment between a learning resource and a node in an educational framework.	Intangible	Thing	NA	NA	NA
+Airport	An airport.	CivicStructure	Place	Thing	NA	NA
+Airline	An organization that provides flights for passengers.	Organization	Thing	NA	NA	NA
+AgreeAction	The act of expressing a consistency of opinion with the object. An agent agrees to/about an object (a proposition, topic or theme) with participants.	ReactAction	AssessAction	Action	Thing	NA
+AggregateRating	The average rating based on multiple ratings or reviews.	Rating	Intangible	Thing	NA	NA
+AggregateOffer	When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.	Offer	Intangible	Thing	NA	NA
+AdultEntertainment	An adult entertainment establishment.	EntertainmentBusiness	LocalBusiness	Place	Thing	NA
+AdultEntertainment	An adult entertainment establishment.	EntertainmentBusiness	LocalBusiness	Organization	Thing	NA
+AdministrativeArea	A geographical region, typically under the jurisdiction of a particular government.	Place	Thing	NA	NA	NA
+AddAction	The act of editing by adding an object to a collection.	UpdateAction	Action	Thing	NA	NA
+ActivateAction	The act of starting or activating a device or application (e.g. starting a timer or turning on a flashlight).	ControlAction	Action	Thing	NA	NA
+ActionStatusType	The status of an Action.	Enumeration	Intangible	Thing	NA	NA
+Action	An action performed by a direct agent and indirect participants upon a direct object. Optionally happens at a location with the help of an inanimate instrument. The execution of the action may produce a result. Specific action sub-type documentation specifies the exact expectation of each argument/role.\n\nSee also [blog post](http://blog.schema.org/2014/04/announcing-schemaorg-actions.html) and [Actions overview document](http://schema.org/docs/actions.html).	Thing	NA	NA	NA	NA
+AchieveAction	The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process.	Action	Thing	NA	NA	NA
+AccountingService	"Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).
+"	FinancialService	LocalBusiness	Place	Thing	NA
+AccountingService	"Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).
+"	FinancialService	LocalBusiness	Organization	Thing	NA
+Accommodation	"An accommodation is a place that can accommodate human beings, e.g. a hotel room, a camping pitch, or a meeting room. Many accommodations are for overnight stays, but this is not a mandatory requirement.
+For more specific types of accommodations not defined in schema.org, one can use additionalType with external vocabularies.
+<br /><br />
+See also the <a href=""/docs/hotels.html"">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>.
+"	Place	Thing	NA	NA	NA
+AcceptAction	The act of committing to/adopting an object.\n\nRelated actions:\n\n* [[RejectAction]]: The antonym of AcceptAction.	AllocateAction	OrganizeAction	Action	Thing	NA
+AboutPage	Web page type: About page.	WebPage	CreativeWork	Thing	NA	NA
+APIReference	Reference documentation for application programming interfaces (APIs).	TechArticle	Article	CreativeWork	Thing	NA

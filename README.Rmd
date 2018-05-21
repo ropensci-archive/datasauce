@@ -36,30 +36,12 @@ You can install `datasauce` from GitHub with:
 devtools::install_github("ropenscilabs/datasauce")
 ```
 
-## Example
+## Getting Started
 
-Concept design stage still.  
-
-Get data.frames with definitions of permitted properties in a <https://schema.org/Dataset> and all subclasses used within `Dataset`:
+Concept design stage still.  Use `?` functions and tab completion to see slots of available objects.
 
 ```{r}
-ds <- datasauce:::get_schemas("Dataset")
-ds$Dataset
-```
-
-Get a simple templating function for creating any schema.org type:
-
-```{r}
-dataset <- datasauce:::template_constructor("Dataset")
-# hit tab to see all possible fields
-ds <- dataset(name = "My dataset")
-```
-
-(currently does not indicate the type of object expected in each field...)
-
-Get all possible classes and properties in schema.org
-
-```{r example}
-datasauce:::get_classes()
-datasauce:::get_properties()
+me <- Person(givenName = "Carl", familyName = "Boettiger", email = "cboettig@ropensci.org")
+as_jsonld(me)
+ds <- Dataset()
 ```

@@ -1,0 +1,44 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r, message=FALSE}
+library(jqr)
+library(jsonlite)
+library(jsonld)
+library(tidyverse)
+```
+
+```{r}
+
+str <- '[{
+    "foo": 1,
+    "bar": 2
+  },
+  {
+    "foo": 3,
+    "bar": 4
+  },
+  {
+    "foo": 5,
+    "bar": 6
+}]'
+```
+
+
+```{r}
+out <- jq(str, ".[]") %>%textConnection() %>% stream_in(simplifyDataFrame=FALSE) 
+str(out)
+```
+
+```{r}
+jq(str, "[.[] | {name: .foo} | keys]") -> out
+out
+```
+
+```{r}
+out %>%textConnection() %>% stream_in(simplifyVector=TRUE, simplifyDataFrame=FALSE, simplifyMatrix = FALSE) %>% str()
+
+```

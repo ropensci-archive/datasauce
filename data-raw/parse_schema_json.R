@@ -1,6 +1,9 @@
-library(rdflib)
+## Note: schema.jsonld imported from rdfa, see import_schemaorg_defs.R
 
-prefixes <- 
+library(rdflib)
+library(dplyr)
+
+prefixes <-
 "
 PREFIX dc: <http://purl.org/dc/terms/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
@@ -19,41 +22,45 @@ schema <- rdf_parse("data-raw/schema.jsonld")
 
 ## List all classes!
 q <- "
-SELECT ?class ?inherits
-WHERE { 
-  ?o a rdfs:Class . 
+SELECT ?class ?description ?inherits
+WHERE {
+  ?o a rdfs:Class .
+  ?o rdfs:comment ?description .
   ?o rdfs:label ?class .
-  ?o rdfs:subClassOf ?x .
-  ?x rdfs:label ?inherits
+  OPTIONAL{ ?o rdfs:subClassOf ?x .
+            ?x rdfs:label ?inherits }
 }
 "
 
 classes <- rdf_query(schema, paste0(prefixes,q))
 
+just_classes <- classes %>% select(-description)
 ## Schema.org has 624 classes; deepest inheritance is depth 5
 
-full_classes <- classes %>% 
-  left_join(classes, by = c(inherits = "class")) %>% 
-  left_join(classes, by = c(inherits.y = "class")) %>% 
-  left_join(classes, by = c(inherits.y.y = "class")) %>% 
-  left_join(classes, by = c(inherits = "class")) %>% 
-  left_join(classes, by = c(inherits.y.y.y = "class"))
+full_classes <- classes %>%
+  left_join(just_classes, by = c(inherits = "class")) %>%
+  left_join(just_classes, by = c(inherits.y = "class")) %>%
+  left_join(just_classes, by = c(inherits.y.y = "class")) %>%
+  left_join(just_classes, by = c(inherits = "class")) %>%
+  left_join(just_classes, by = c(inherits.y.y.y = "class"))
 
-## Prove we have fully descended the tree  
+## Prove we have fully descended the tree
 full_classes %>% filter(!is.na(inherits.y.y.y.y))
-full_classes <- full_classes[1:6]
-names(full_classes) <- c("class", "inherits", "inherits.2", "inherits.3", "inherits.4", "inherits.5")
+full_classes <- full_classes[1:7]
+names(full_classes) <- c("class", "description", "inherits",
+                         "inherits.2", "inherits.3", "inherits.4",
+                         "inherits.5")
 classes <- full_classes
 
 
 
 classes %>% filter(class == "Dataset")
 ## Get me all valid properties of a class
-# all those properties with "schema:domainIncludes": {"@id": "schema:Classlabel"} 
+# all those properties with "schema:domainIncludes": {"@id": "schema:Classlabel"}
 
 q <- "
 SELECT ?class ?property ?type ?description
-WHERE { 
+WHERE {
 ?o a rdf:Property .
 ?o rdfs:label ?property .
 ?o rdfs:comment ?description .
@@ -66,11 +73,20 @@ WHERE {
 "
 properties <- rdf_query(schema, paste0(prefixes,q))
 
+## But has separate rows for each possible type of property.
+## combine these into single rows with a list of possible types:
+properties <- properties %>%
+group_by(property) %>%
+  mutate(accepted_types = paste0(type, collapse = " or "))
+
+
+
 readr::write_tsv(properties, "data-raw/properties.tsv")
 readr::write_tsv(classes, "data-raw/classes.tsv")
 
 schema_defs <- list(classes = classes, properties = properties)
-devtools::use_data(schema_defs, internal = TRUE)
+
+#devtools::use_data(schema_defs, internal = TRUE, overwrite = TRUE)
 
 rdf_free(schema)
 ####
@@ -86,5 +102,5 @@ rdf_free(schema)
 #all_classes <- jq(schema, '.["@type"] = "rdfs:Class"')
 # all_classes %>% jq('.["@id"]') #NOPE
 #what are valid properties for the class?
-# all those properties with "domainIncludes": {"@id": "schema:Classlabel"} 
+# all those properties with "domainIncludes": {"@id": "schema:Classlabel"}
 

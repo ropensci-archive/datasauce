@@ -1,9 +1,12 @@
 
+testthat::context("Simple tests")
 
-
-ds <- datasauce:::get_schemas("Dataset")
-ds$Dataset
-dataset <- datasauce:::template_constructor("Dataset")
-ds <- dataset(name = "My dataset")
-datasauce:::get_classes()
-datasauce:::get_properties()
+testthat::test_that("We can call a constructor", {
+  x <- Thing(url = "http://schema.org")
+  testthat::expect_is(x, "list")
+  
+  out <- as_jsonld(x)
+  out <- write_jsonld(x, "x.json")
+  
+  unlink("x.json")
+})

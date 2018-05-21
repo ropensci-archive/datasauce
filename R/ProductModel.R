@@ -1,0 +1,160 @@
+#' ProductModel 
+#'
+#' A datasheet or vendor specification of a product (in the sense of a prototypical description). 
+#'
+#'
+#' @param id identifier for the object (URI)
+#' @param width (QuantitativeValue or Distance or QuantitativeValue or Distance or QuantitativeValue or Distance type.) The width of the item.
+#' @param weight (QuantitativeValue or QuantitativeValue type.) The weight of the product or person.
+#' @param sku (Text or Text or Text type.) The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
+#' @param reviews (Review or Review or Review or Review or Review type.) Review of the item.
+#' @param review (Review or Review or Review or Review or Review or Review or Review or Review type.) A review of the item.
+#' @param releaseDate (Date type.) The release date of a product or product model. This can be used to distinguish the exact variant of a product.
+#' @param purchaseDate (Date or Date type.) The date the item e.g. vehicle was purchased by the current owner.
+#' @param productionDate (Date or Date type.) The date of production of the item, e.g. vehicle.
+#' @param productID (Text type.) The product identifier, such as ISBN. For example: ``` meta itemprop="productID" content="isbn:123-456-789" ```.
+#' @param offers (Offer or Offer or Offer or Offer or Offer or Offer or Offer type.) An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.
+#' @param mpn (Text or Text or Text type.) The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers.
+#' @param model (Text or ProductModel type.) The model of the product. Use with the URL of a ProductModel or a textual representation of the model identifier. The URL of the ProductModel can be from an external source. It is recommended to additionally provide strong product identifiers via the gtin8/gtin13/gtin14 and mpn properties.
+#' @param material (URL or Text or Product or URL or Text or Product type.) A material that something is made from, e.g. leather, wool, cotton, paper.
+#' @param manufacturer (Organization type.) The manufacturer of the product.
+#' @param logo (URL or ImageObject or URL or ImageObject or URL or ImageObject or URL or ImageObject or URL or ImageObject type.) An associated logo.
+#' @param itemCondition (OfferItemCondition or OfferItemCondition or OfferItemCondition type.) A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.
+#' @param isSimilarTo (Service or Product or Service or Product type.) A pointer to another, functionally similar product (or multiple products).
+#' @param isRelatedTo (Service or Product or Service or Product type.) A pointer to another, somehow related product (or multiple products).
+#' @param isConsumableFor (Product type.) A pointer to another product (or multiple products) for which this product is a consumable.
+#' @param isAccessoryOrSparePartFor (Product type.) A pointer to another product (or multiple products) for which this product is an accessory or spare part.
+#' @param height (QuantitativeValue or Distance or QuantitativeValue or Distance or QuantitativeValue or Distance or QuantitativeValue or Distance type.) The height of the item.
+#' @param gtin8 (Text or Text or Text type.) The [GTIN-8](http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx) code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details.
+#' @param gtin14 (Text or Text or Text type.) The [GTIN-14](http://apps.gs1.org/GDD/glossary/Pages/GTIN-14.aspx) code of the product, or the product to which the offer refers. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details.
+#' @param gtin13 (Text or Text or Text type.) The [GTIN-13](http://apps.gs1.org/GDD/glossary/Pages/GTIN-13.aspx) code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details.
+#' @param gtin12 (Text or Text or Text type.) The [GTIN-12](http://apps.gs1.org/GDD/glossary/Pages/GTIN-12.aspx) code of the product, or the product to which the offer refers. The GTIN-12 is the 12-digit GS1 Identification Key composed of a U.P.C. Company Prefix, Item Reference, and Check Digit used to identify trade items. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details.
+#' @param depth (QuantitativeValue or Distance or QuantitativeValue or Distance type.) The depth of the item.
+#' @param color (Text type.) The color of the product.
+#' @param category (Thing or Text or Thing or Text or Thing or Text or Thing or Text type.) A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
+#' @param brand (Organization or Brand or Organization or Brand or Organization or Brand or Organization or Brand type.) The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
+#' @param awards (Text or Text or Text or Text type.) Awards won by or for this item.
+#' @param award (Text or Text or Text or Text or Text type.) An award won by or for this item.
+#' @param audience (Audience or Audience or Audience or Audience or Audience or Audience type.) An intended audience, i.e. a group for whom something was created.
+#' @param aggregateRating (AggregateRating or AggregateRating or AggregateRating or AggregateRating or AggregateRating or AggregateRating or AggregateRating or AggregateRating type.) The overall rating, based on a collection of reviews or ratings, of the item.
+#' @param additionalProperty (PropertyValue or PropertyValue or PropertyValue or PropertyValue type.) A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.Note: Publishers should be aware that applications designed to use specific schema.org properties (e.g. http://schema.org/width, http://schema.org/color, http://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism.
+#' @param successorOf (ProductModel type.) A pointer from a newer variant of a product  to its previous, often discontinued predecessor.
+#' @param predecessorOf (ProductModel type.) A pointer from a previous, often discontinued variant of the product to its newer variant.
+#' @param isVariantOf (ProductModel type.) A pointer to a base product from which this product is a variant. It is safe to infer that the variant inherits all product features from the base model, unless defined locally. This is not transitive.
+#' @param url (URL type.) URL of the item.
+#' @param sameAs (URL type.) URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website.
+#' @param potentialAction (Action type.) Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.
+#' @param name (Text type.) The name of the item.
+#' @param mainEntityOfPage (URL or CreativeWork type.) Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See [background notes](/docs/datamodel.html#mainEntityBackground) for details.
+#' @param image (URL or ImageObject type.) An image of the item. This can be a [[URL]] or a fully described [[ImageObject]].
+#' @param identifier (URL or Text or PropertyValue type.) The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
+#' @param disambiguatingDescription (Text type.) A sub property of description. A short description of the item used to disambiguate from other, similar items. Information from other properties (in particular, name) may be necessary for the description to be useful for disambiguation.
+#' @param description (Text type.) A description of the item.
+#' @param alternateName (Text type.) An alias for the item.
+#' @param additionalType (URL type.) An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
+#'
+#' @return a list object corresponding to a schema:ProductModel
+#'
+#' @export
+
+ ProductModel <- function(id = NULL,
+width = NULL,
+ weight = NULL,
+ sku = NULL,
+ reviews = NULL,
+ review = NULL,
+ releaseDate = NULL,
+ purchaseDate = NULL,
+ productionDate = NULL,
+ productID = NULL,
+ offers = NULL,
+ mpn = NULL,
+ model = NULL,
+ material = NULL,
+ manufacturer = NULL,
+ logo = NULL,
+ itemCondition = NULL,
+ isSimilarTo = NULL,
+ isRelatedTo = NULL,
+ isConsumableFor = NULL,
+ isAccessoryOrSparePartFor = NULL,
+ height = NULL,
+ gtin8 = NULL,
+ gtin14 = NULL,
+ gtin13 = NULL,
+ gtin12 = NULL,
+ depth = NULL,
+ color = NULL,
+ category = NULL,
+ brand = NULL,
+ awards = NULL,
+ award = NULL,
+ audience = NULL,
+ aggregateRating = NULL,
+ additionalProperty = NULL,
+ successorOf = NULL,
+ predecessorOf = NULL,
+ isVariantOf = NULL,
+ url = NULL,
+ sameAs = NULL,
+ potentialAction = NULL,
+ name = NULL,
+ mainEntityOfPage = NULL,
+ image = NULL,
+ identifier = NULL,
+ disambiguatingDescription = NULL,
+ description = NULL,
+ alternateName = NULL,
+ additionalType = NULL){ 
+Filter(Negate(is.null),
+ list(
+type = "ProductModel",
+id = id,
+width = width,
+weight = weight,
+sku = sku,
+reviews = reviews,
+review = review,
+releaseDate = releaseDate,
+purchaseDate = purchaseDate,
+productionDate = productionDate,
+productID = productID,
+offers = offers,
+mpn = mpn,
+model = model,
+material = material,
+manufacturer = manufacturer,
+logo = logo,
+itemCondition = itemCondition,
+isSimilarTo = isSimilarTo,
+isRelatedTo = isRelatedTo,
+isConsumableFor = isConsumableFor,
+isAccessoryOrSparePartFor = isAccessoryOrSparePartFor,
+height = height,
+gtin8 = gtin8,
+gtin14 = gtin14,
+gtin13 = gtin13,
+gtin12 = gtin12,
+depth = depth,
+color = color,
+category = category,
+brand = brand,
+awards = awards,
+award = award,
+audience = audience,
+aggregateRating = aggregateRating,
+additionalProperty = additionalProperty,
+successorOf = successorOf,
+predecessorOf = predecessorOf,
+isVariantOf = isVariantOf,
+url = url,
+sameAs = sameAs,
+potentialAction = potentialAction,
+name = name,
+mainEntityOfPage = mainEntityOfPage,
+image = image,
+identifier = identifier,
+disambiguatingDescription = disambiguatingDescription,
+description = description,
+alternateName = alternateName,
+additionalType = additionalType))}

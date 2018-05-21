@@ -1,0 +1,65 @@
+---
+output: github_document
+---
+
+[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://img.shields.io/badge/repo%20status-concept-orange.svg)](http://www.repostatus.org/#concept)
+[![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/datasauce.svg?branch=master)](https://travis-ci.org/ropenscilabs/datasauce)
+
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# datasauce
+
+The goal of datasauce is to facilitate creation and manipulation of metadata which uses Google's [Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data) format; essentially [JSON-LD](https://json-ld.org) formatted files which use <https://schema.org/Dataset>.  Users can check their document interactively using the [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool). ***See [Google's Dataset Documentation](https://developers.google.com/search/docs/data-types/dataset) for more on [this approach](https://ai.googleblog.com/2017/01/facilitating-discovery-of-public.html).***
+
+
+
+The [rOpenSci Project](https://ropensci.org) may use `datasauce` to create and manage metadata 
+about all of the open data sources that can be accessed with rOpenSci packages.  This could facilitate
+discovery of relevant data.
+
+## Installation
+
+You can install `datasauce` from GitHub with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("ropenscilabs/datasauce")
+```
+
+## Example
+
+Concept design stage still.  
+
+Get data.frames with definitions of permitted properties in a <https://schema.org/Dataset> and all subclasses used within `Dataset`:
+
+```{r}
+ds <- datasauce:::get_schemas("Dataset")
+ds$Dataset
+```
+
+Get a simple templating function for creating any schema.org type:
+
+```{r}
+dataset <- datasauce:::template_constructor("Dataset")
+# hit tab to see all possible fields
+ds <- dataset(name = "My dataset")
+```
+
+(currently does not indicate the type of object expected in each field...)
+
+Get all possible classes and properties in schema.org
+
+```{r example}
+datasauce:::get_classes()
+datasauce:::get_properties()
+```

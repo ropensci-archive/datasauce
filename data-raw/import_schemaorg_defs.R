@@ -1,5 +1,9 @@
 ## Read in ALL schema.org definitions as JSON-LD
 
+## xslt transform FAILING ON THIS.  Used an online tool instead to convert RDFa to JSON-LD
+## (If we could convert it to RDF+XML, that would be good enough to import.)
+
+
 library(xslt)
 library(xml2)
 library(rdflib)
