@@ -10,3 +10,4 @@
 ^\.github$
 ^data-raw$
 ^notebook$
+^CODE_OF_CONDUCT\.md$

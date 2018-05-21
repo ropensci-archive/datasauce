@@ -5,6 +5,12 @@ or
 proof-of-concept.](https://img.shields.io/badge/repo%20status-concept-orange.svg)](http://www.repostatus.org/#concept)
 [![Travis-CI Build
 Status](https://travis-ci.org/ropenscilabs/datasauce.svg?branch=master)](https://travis-ci.org/ropenscilabs/datasauce)
+[![Coverage
+status](https://codecov.io/gh/ropenscilabs/datasauce/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/datasauce?branch=master)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/ropenscilabs/datasauce?branch=master&svg=true)](https://ci.appveyor.com/project/ropenscilabs/datasauce)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/datasauce)](https://cran.r-project.org/package=datasauce)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -36,73 +42,39 @@ You can install `datasauce` from GitHub with:
 devtools::install_github("ropenscilabs/datasauce")
 ```
 
-## Example
+## Getting Started
 
-Concept design stage still.
-
-Get data.frames with definitions of permitted properties in a
-<https://schema.org/Dataset> and all subclasses used within `Dataset`:
+Concept design stage still. Use `?` functions and tab completion to see
+slots of available objects.
 
 ``` r
-ds <- datasauce:::get_schemas("Dataset")
-ds$Dataset
-#> # A tibble: 136 x 4
-#>    class        property        type         description                  
-#>    <chr>        <chr>           <chr>        <chr>                        
-#>  1 CreativeWork workExample     CreativeWork Example/instance/realization…
-#>  2 CreativeWork video           VideoObject  An embedded video object.    
-#>  3 CreativeWork version         Text         The version of the CreativeW…
-#>  4 CreativeWork version         Number       The version of the CreativeW…
-#>  5 CreativeWork typicalAgeRange Text         The typical expected age ran…
-#>  6 CreativeWork translator      Person       Organization or person who a…
-#>  7 CreativeWork translator      Organization Organization or person who a…
-#>  8 CreativeWork timeRequired    Duration     Approximate or typical time …
-#>  9 CreativeWork thumbnailUrl    URL          A thumbnail image relevant t…
-#> 10 CreativeWork text            Text         The textual content of this …
-#> # ... with 126 more rows
+library(datasauce)
+#> 
+#> Attaching package: 'datasauce'
+#> The following object is masked from 'package:base':
+#> 
+#>     Map
+me <- Person(givenName = "Carl", familyName = "Boettiger", email = "cboettig@ropensci.org")
+as_jsonld(me)
+#> {
+#>   "@context": "http://schema.org",
+#>   "type": "Person",
+#>   "givenName": "Carl",
+#>   "familyName": "Boettiger",
+#>   "email": "cboettig@ropensci.org"
+#> }
 ```
 
-Get a simple templating function for creating any schema.org type:
+The main purpose of the package is to take advantage of tab completion
+and built-in documentation. For instance, typing `datasauce::P` and
+hitting tab, we see a list of all possible object types (classes)
+starting with `P`. Typing a full class, such as `datasauce::Place(` and
+hitting tab, we see a list of possible properties for `Place`. The
+manual entry, `?Place`, shows the definitions for each of these
+properties, along with there expected types.
 
-``` r
-dataset <- datasauce:::template_constructor("Dataset")
-# hit tab to see all possible fields
-ds <- dataset(name = "My dataset")
-```
+-----
 
-(currently does not indicate the type of object expected in each field…)
-
-Get all possible classes and properties in schema.org
-
-``` r
-datasauce:::get_classes()
-#> # A tibble: 752 x 6
-#>    class          inherits    inherits.2  inherits.3 inherits.4 inherits.5
-#>    <chr>          <chr>       <chr>       <chr>      <chr>      <chr>     
-#>  1 Zoo            CivicStruc… Place       Thing      <NA>       <NA>      
-#>  2 WriteAction    CreateActi… Action      Thing      <NA>       <NA>      
-#>  3 Winery         FoodEstabl… LocalBusin… Place      Thing      <NA>      
-#>  4 Winery         FoodEstabl… LocalBusin… Organizat… Thing      <NA>      
-#>  5 WinAction      AchieveAct… Action      Thing      <NA>       <NA>      
-#>  6 WholesaleStore Store       LocalBusin… Place      Thing      <NA>      
-#>  7 WholesaleStore Store       LocalBusin… Organizat… Thing      <NA>      
-#>  8 WebSite        CreativeWo… Thing       <NA>       <NA>       <NA>      
-#>  9 WebPageElement CreativeWo… Thing       <NA>       <NA>       <NA>      
-#> 10 WebPage        CreativeWo… Thing       <NA>       <NA>       <NA>      
-#> # ... with 742 more rows
-datasauce:::get_properties()
-#> # A tibble: 1,764 x 4
-#>    class            property         type              description        
-#>    <chr>            <chr>            <chr>             <chr>              
-#>  1 HowTo            yield            Text              The quantity that …
-#>  2 HowTo            yield            QuantitativeValue The quantity that …
-#>  3 BusinessAudience yearsInOperation QuantitativeValue The age of the bus…
-#>  4 BusinessAudience yearlyRevenue    QuantitativeValue The size of the bu…
-#>  5 Rating           worstRating      Text              The lowest value a…
-#>  6 Rating           worstRating      Number            The lowest value a…
-#>  7 Person           worksFor         Organization      Organizations that…
-#>  8 ScreeningEvent   workPresented    Movie             The movie presente…
-#>  9 Event            workPerformed    CreativeWork      A work performed i…
-#> 10 Person           workLocation     Place             A contact location…
-#> # ... with 1,754 more rows
-```
+Please note that this project is released with a [Contributor Code of
+Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree
+to abide by its terms.

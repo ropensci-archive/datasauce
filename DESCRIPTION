@@ -1,7 +1,9 @@
 Package: datasauce
 Title: Create and manipulate Schema.org Dataset metadata
 Version: 0.0.0.9000
-Authors@R: c(person("Carl", "Boettiger", email = "cboettig@gmail.com", role = c("aut", "cre")),
+Authors@R: c(person("Carl", "Boettiger", 
+                    email = "cboettig@gmail.com", 
+                    role = c("aut", "cre")),
              person("Scott", "Chamberlain", role = "aut"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.4.0)
@@ -14,8 +16,10 @@ Imports:
     stats,
     dplyr
 RoxygenNote: 6.0.1.9000
-Suggests: testthat,
+Suggests: 
+    testthat,
     jsonvalidate,
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr
 VignetteBuilder: knitr
