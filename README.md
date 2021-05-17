@@ -1,8 +1,5 @@
 
-[![Project Status: Concept – Minimal or no implementation has been done
-yet, or the repository is only intended to be a limited example, demo,
-or
-proof-of-concept.](https://img.shields.io/badge/repo%20status-concept-orange.svg)](http://www.repostatus.org/#concept)
+[![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 [![Travis-CI Build
 Status](https://travis-ci.org/ropenscilabs/datasauce.svg?branch=master)](https://travis-ci.org/ropenscilabs/datasauce)
 [![Coverage
